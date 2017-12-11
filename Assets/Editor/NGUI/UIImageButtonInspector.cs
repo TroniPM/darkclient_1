@@ -64,6 +64,7 @@ public class UIImageButtonInspector : Editor
 		mButton.normalSprite = spriteName;
 		mSprite.spriteName = spriteName;
 		mSprite.MakePixelPerfect();
+
 		Collider collider = mButton.GetComponent<Collider> ();
 		if (collider == null || (collider is BoxCollider)) NGUITools.AddWidgetCollider(mButton.gameObject);
 		Repaint();

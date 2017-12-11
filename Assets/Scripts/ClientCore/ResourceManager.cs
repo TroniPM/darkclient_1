@@ -494,7 +494,7 @@ namespace Mogo.Util
                 {
                     var res = list[createCounter];
                     createCounter++;
-                    var cr = AssetBundle.LoadFromMemoryAsync(res.fileData);
+					var cr = AssetBundle.LoadFromMemoryAsync(res.fileData);
                     if (cr == null)
                     {
                         LoggerHelper.Error("Create failure: " + res.RelativePath);
@@ -561,7 +561,7 @@ namespace Mogo.Util
                         //var fileName = String.Concat(SystemConfig.ResourceFolder, path);
                         //var resourceData = Utils.LoadByteFile(fileName);
                         var resourceData = FileAccessManager.LoadBytes(path);
-                        var cr = AssetBundle.LoadFromMemoryAsync(resourceData);
+						var cr = AssetBundle.LoadFromMemoryAsync(resourceData);
                         yield return cr;
                         res.createRequest = cr;
                         if (res.createRequest.assetBundle != null)

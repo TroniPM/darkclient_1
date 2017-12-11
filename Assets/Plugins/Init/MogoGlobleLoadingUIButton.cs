@@ -28,6 +28,7 @@ public class MogoGlobleLoadingUIButton : MonoBehaviour
     {
         if (audioSource != null && audioSource.clip != null)
         {
+            Debug.LogError("caonima");
             audioSource.PlayOneShot(audioSource.clip, 1);
         }
     }

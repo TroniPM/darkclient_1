@@ -107,7 +107,7 @@ public class MeshCombineUtility {
 		foreach( MeshInstance combine in combines )
 		{
 			if (combine.mesh)
-				Copy(combine.mesh.vertexCount, combine.mesh.uv2, uv1, ref offset);
+				Copy(combine.mesh.vertexCount, combine.mesh.uv2, uv, ref offset);
 		}
 		
 		int triangleOffset=0;

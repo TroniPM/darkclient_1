@@ -111,8 +111,8 @@ public class ControlStick : MonoBehaviour
         //actualCenterStick.x = centerStick.x * Screen.width;
         //actualCenterStick.y = centerStick.y * Screen.height;
 
-        actualCenterBg.x = controllerBg.localPosition.x * Screen.width / RelatedCamera.orthographicSize;
-        actualCenterBg.y = controllerBg.localPosition.y * Screen.height / (RelatedCamera.orthographicSize / RelatedCamera.aspect);
+		actualCenterBg.x = controllerBg.localPosition.x * Screen.width / RelatedCamera.orthographicSize;
+		actualCenterBg.y = controllerBg.localPosition.y * Screen.height / (RelatedCamera.orthographicSize / RelatedCamera.aspect);
 
         float size = Mathf.Max(Screen.width, Screen.height);
         //actualRadiusBg = radiusBg * size;
@@ -130,8 +130,8 @@ public class ControlStick : MonoBehaviour
                                               actualRadiusStick * 2, actualRadiusStick * 2);
 
         BoxCollider box = GetComponent<BoxCollider>();
-        float aspect = Screen.height / 720;
-        rectCanTouch = new Rect(0, Screen.height - box.size.y * aspect, box.size.x * aspect, box.size.y * aspect);
+		float aspect = Screen.width / 720;
+		rectCanTouch = new Rect(0, Screen.height - box.size.y * aspect, box.size.x * aspect, box.size.y * aspect);
         isFirstLanuch = false;
         isDraging = false;
     }
@@ -153,13 +153,13 @@ public class ControlStick : MonoBehaviour
             direction = direction.normalized;
 
             controllerButton.localPosition = new Vector3((actualRectStick.xMax + actualRectStick.xMin) * 0.5f *
-                RelatedCamera.orthographicSize / Screen.width, (Screen.height - (actualRectStick.yMin + actualRectStick.yMax) * 0.5f) *
-                    (RelatedCamera.orthographicSize / RelatedCamera.aspect) / Screen.height, 0);
+				RelatedCamera.orthographicSize / Screen.width, (Screen.height - (actualRectStick.yMin + actualRectStick.yMax) * 0.5f) *
+				(RelatedCamera.orthographicSize / RelatedCamera.aspect) / Screen.height, 0);
 
 
             controllerBg.localPosition = new Vector3((actualRectBg.xMax + actualRectBg.xMin) * 0.5f *
-                RelatedCamera.orthographicSize / Screen.width, (Screen.height - (actualRectBg.yMin + actualRectBg.yMax) * 0.5f) *
-                    (RelatedCamera.orthographicSize / RelatedCamera.aspect) / Screen.height, 0);
+				RelatedCamera.orthographicSize / Screen.width, (Screen.height - (actualRectBg.yMin + actualRectBg.yMax) * 0.5f) *
+				(RelatedCamera.orthographicSize / RelatedCamera.aspect) / Screen.height, 0);
         }
 
     }

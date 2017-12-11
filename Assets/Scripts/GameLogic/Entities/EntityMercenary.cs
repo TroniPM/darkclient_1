@@ -645,7 +645,8 @@ namespace Mogo.Game
             }
             if (Actor)
             {
-                var cc = Actor.GetComponent<Collider>() as CharacterController;
+				Collider collider = Actor.GetComponent<Collider> ();
+				var cc = collider as CharacterController;
                 if (cc)
                     cc.radius = 0.3f;
             }

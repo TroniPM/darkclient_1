@@ -168,7 +168,6 @@ public class ResourceChecker : EditorWindow {
 			case TextureFormat.BGRA32://	 Format returned by iPhone camera
 				return 32;
 		}
-
 		return 0;
 	}
 	

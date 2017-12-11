@@ -85,6 +85,7 @@ public class UIAnchor : MonoBehaviour
 	{
 		mRoot = NGUITools.FindInParents<UIRoot>(gameObject);
 		mNeedsHalfPixelOffset = (Application.platform == RuntimePlatform.WindowsPlayer ||
+			Application.platform == RuntimePlatform.WebGLPlayer ||
 			Application.platform == RuntimePlatform.WindowsEditor);
 
 		// Only DirectX 9 needs the half-pixel offset

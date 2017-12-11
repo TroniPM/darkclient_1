@@ -9,6 +9,7 @@
 //----------------------------------------------------------------*/
 
 using System;
+using UnityEngine;
 using System.Collections;
 using Mogo.Game;
 
@@ -17,20 +18,21 @@ namespace Mogo.FSM
     public class StateLocking : IState
     {
         // 进入该状态
-        public void Enter(EntityParent theOwner, params Object[] args)
+		public void Enter(EntityParent theOwner, params System.Object[] args)
         {
             theOwner.CurrentMotionState = MotionState.LOCKING;
         }
 
         // 离开状态
-        public void Exit(EntityParent theOwner, params Object[] args)
+		public void Exit(EntityParent theOwner, params System.Object[] args)
         {
         }
 
         // 状态处理
-        public void Process(EntityParent theOwner, params Object[] args)
+		public void Process(EntityParent theOwner, params System.Object[] args)
         {
-            theOwner.Transform.GetComponent<UnityEngine.Animation>().CrossFade("locking");
+			Animation animation = theOwner.Transform.GetComponent<Animation> ();
+			animation.CrossFade("locking");
             MogoMotor theMotor = theOwner.motor;
             theMotor.enabled = false;
         }

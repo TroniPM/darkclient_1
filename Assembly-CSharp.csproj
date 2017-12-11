@@ -1322,9 +1322,6 @@
  <Reference Include="UnityEngine.Purchasing">
  <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
- <Reference Include="MsgPack">
- <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Plugins/MogoSolution/LoaderLib/Libs/MsgPack.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

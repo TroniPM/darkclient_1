@@ -407,21 +407,22 @@ public class MogoMainCamera : MonoBehaviour
 
     public void PlayCGAnim(string animPath)
     {
-        if (GetComponent<Animation>()[animPath] == null)
+		Animation animation = GetComponent<Animation> ();
+        if (animation[animPath] == null)
         {
             AssetCacheMgr.GetResourceAutoRelease(animPath,
                 (obj) =>
                 {
                     AnimationClip clip = obj as AnimationClip;
-                    GetComponent<Animation>().AddClip(clip, animPath);
-                    GetComponent<Animation>().Play(animPath);
+                    animation.AddClip(clip, animPath);
+                    animation.Play(animPath);
                     CurrentState = CG;
 
                 });
         }
         else
         {
-            GetComponent<Animation>().Play(animPath);
+            animation.Play(animPath);
             CurrentState = CG;
         }
     }
@@ -713,7 +714,7 @@ public class MogoMainCamera : MonoBehaviour
         transform.localPosition = Vector3.zero;
         transform.localEulerAngles = Vector3.zero;
 
-        Animation ani = MogoWorld.thePlayer.Transform.Find(data.path).GetComponent<Animation>();
+		Animation ani = MogoWorld.thePlayer.Transform.Find(data.path).GetComponent<Animation>();
         ani.Stop();
         ani.Play();
 
@@ -753,8 +754,10 @@ public class MogoMainCamera : MonoBehaviour
                 //transform.position = hit.point;
 
                 GameObject obj = hit.collider.gameObject;
-                if (obj.GetComponent<Renderer>() == null) return;
-                Material m = obj.GetComponent<Renderer>().material;
+				Renderer renderer = obj.GetComponent<Renderer> ();
+				if (renderer == null) return;
+
+				Material m = renderer.GetComponent<Material>();
                 int id = obj.GetInstanceID();
                 lastObjects.Add(obj);
                 if (!colorDic.ContainsKey(id))
@@ -776,8 +779,11 @@ public class MogoMainCamera : MonoBehaviour
     {
         foreach (GameObject go in lastObjects)
         {
-            if (go == null) continue;
-            Material m = go.GetComponent<Renderer>().material;
+            if (go == null) 
+				continue;
+
+			Renderer renderer = go.GetComponent<Renderer> ();
+			Material m = renderer.GetComponent<Material>();
             m.color = colorDic[go.GetInstanceID()];
             m.shader = shaderDic[go.GetInstanceID()];
         }

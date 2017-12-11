@@ -112,7 +112,7 @@ public class ActorParent : MonoBehaviour
         if (m_animator.IsInTransition(0))
         {//融合期间
             return;
-        }
+		}
 		var state = m_animator.GetCurrentAnimatorClipInfo(0);
         if (state.Length == 0)
         {

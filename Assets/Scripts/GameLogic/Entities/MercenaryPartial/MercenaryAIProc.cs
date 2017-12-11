@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using Mogo.Task;
 using Mogo.Mission;
 using Mogo.Util;
@@ -458,9 +459,9 @@ namespace Mogo.Game
             if (curdistance > 1000)
             {
                 RemoveTarget();
-                this.Transform.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+                this.Transform.GetComponent<NavMeshAgent>().enabled = false;
                 this.Transform.position = MogoWorld.thePlayer.Transform.position + new Vector3(0, 0, 1);
-                this.Transform.GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
+                this.Transform.GetComponent<NavMeshAgent>().enabled = true;
                 return true;
             }
 

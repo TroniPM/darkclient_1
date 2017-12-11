@@ -258,6 +258,7 @@ static public class NGUIMath
 		RuntimePlatform platform = Application.platform;
 
 		if (platform == RuntimePlatform.WindowsPlayer ||
+			platform == RuntimePlatform.WebGLPlayer ||
 			platform == RuntimePlatform.WindowsEditor)
 		{
 			pos.x = pos.x - 0.5f;
@@ -277,6 +278,7 @@ static public class NGUIMath
 		RuntimePlatform platform = Application.platform;
 
 		if (platform == RuntimePlatform.WindowsPlayer ||
+			platform == RuntimePlatform.WebGLPlayer ||
 			platform == RuntimePlatform.WindowsEditor)
 		{
 			if (Mathf.RoundToInt(scale.x) == (Mathf.RoundToInt(scale.x * 0.5f) * 2)) pos.x = pos.x - 0.5f;
