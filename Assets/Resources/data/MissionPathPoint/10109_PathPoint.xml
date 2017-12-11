@@ -1,0 +1,29 @@
+<root>
+  <gears>
+    <id>1</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>0</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>53.7, 3.9, 97.4</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>12.4, 3.7, 8.0</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>2</deleteList>
+  </gears>
+  <gears>
+    <id>2</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>1</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>53.7, 0.9, 70.8</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>12.4, 4.5, 5.6</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>
+    </deleteList>
+  </gears>
+</root>

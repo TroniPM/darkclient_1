@@ -1,0 +1,53 @@
+#!/usr/bin/perl -w 
+use IO::Select;
+use IO::Socket;
+use client;
+
+my $lsn = IO::Socket::INET->new(Listen => 100, LocalPort => 9527) or die "cannot new socket\n";
+my $sel = IO::Select->new( $lsn ) or die"fail to new select\n";
+my %clients=();
+my %taskstodo=();
+my %tasksfinished=();
+my %tasksonworking=();
+my %taskscollected=();
+client::settaskstodo(\%taskstodo);
+client::settasksonworking(\%tasksonworking);
+client::settasksfinished(\%tasksfinished);
+client::settaskscollected(\%taskscollected);
+
+print "server is ready for client\n";
+
+while(@ready = $sel->can_read)
+{
+    foreach $fh (@ready)
+	{
+        if($fh == $lsn) {
+             # Create a new socket
+             my $new = $lsn->accept;
+             $sel->add($new);
+			 my $c=new client;
+			 $c->setsocket(\$new);
+			 $c->setsel(\$sel);
+			 $clients{$new}=$c;
+			 print "a new client is connected! i ma total ha -> ". ($sel->count()-1) . "\n";
+         }
+         else {
+			if($fh)
+			{
+				#Process socket
+				my $ret=$clients{$fh}->Process;
+				if($ret eq "close")
+				{
+					$sel->remove($fh);
+					$fh->close;
+					delete $clients{$fh};
+					print "a client disconnected! i ma total ha -> ". ($sel->count()-1) . "\n";
+				}
+			}
+			else
+			{
+				print "oh no!\n";
+			}
+         }
+     }
+}

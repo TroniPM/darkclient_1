@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E6B6C90-2886-4E8B-B84E-023526D0FB76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LoaderLib</RootNamespace>
+    <AssemblyName>LoaderLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_ANDROID|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Plugins\Libs\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MsgPack">
+      <HintPath>..\..\Assets\Plugins\Libs\MsgPack.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config\SystemConfigPara.cs" />
+    <Compile Include="Config\SystemSwitch.cs" />
+    <Compile Include="Init\PluginCallback.cs" />
+    <Compile Include="Init\VersionManager.cs" />
+    <Compile Include="Libs\HMF\Hmf.cs" />
+    <Compile Include="Libs\HMF\Tag.cs" />
+    <Compile Include="Libs\HMF\Util.cs" />
+    <Compile Include="Libs\MS\KeyedPriorityQueue.cs" />
+    <Compile Include="Libs\MS\KeyedPriorityQueueHeadChangedEventArgs.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\BZip2\BZip2.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\BZip2\BZip2Constants.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\BZip2\BZip2Exception.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\BZip2\BZip2InputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\BZip2\BZip2OutputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Checksums\Adler32.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Checksums\CRC32.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Checksums\IChecksum.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Checksums\StrangeCRC.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\FileSystemScanner.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\INameTransform.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\IScanFilter.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\NameFilter.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\PathFilter.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\StreamUtils.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Core\WindowsPathUtils.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Encryption\PkzipClassic.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Encryption\ZipAESStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Encryption\ZipAESTransform.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\GZip\GZIPConstants.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\GZip\GZipException.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\GZip\GzipInputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\GZip\GzipOutputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Main.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\SharpZipBaseException.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\InvalidHeaderException.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarArchive.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarBuffer.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarEntry.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarException.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarHeader.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarInputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Tar\TarOutputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Deflater.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Inflater.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\FastZip.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\IEntryFactory.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\WindowsNameTransform.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipConstants.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipEntry.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipEntryFactory.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipException.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipExtraData.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipFile.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipHelperStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipInputStream.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipNameTransform.cs" />
+    <Compile Include="Libs\SharpZipLibSrc\Zip\ZipOutputStream.cs" />
+    <Compile Include="Libs\XmlParser\MiniParser.cs" />
+    <Compile Include="Libs\XmlParser\SecurityParser.cs" />
+    <Compile Include="Libs\XmlParser\SmallXmlParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RPC\Utils.cs" />
+    <Compile Include="Utils\AssetCacheMgr.cs" />
+    <Compile Include="Utils\BitCryto.cs" />
+    <Compile Include="Utils\DESCrypto.cs" />
+    <Compile Include="Utils\DownloadManager.cs" />
+    <Compile Include="Utils\DownloadMgr.cs" />
+    <Compile Include="Utils\DownloadObserver.cs" />
+    <Compile Include="Utils\Event\EventDispatcher.cs" />
+    <Compile Include="Utils\Event\EventException.cs" />
+    <Compile Include="Utils\Event\GlobalEvents.cs" />
+    <Compile Include="Utils\FileAccessManager.cs" />
+    <Compile Include="Utils\Interfaces.cs" />
+    <Compile Include="Utils\LoggerHelper.cs" />
+    <Compile Include="Utils\LuaTable.cs" />
+    <Compile Include="Utils\MogoFileSystem.cs" />
+    <Compile Include="Utils\ResourceIndexInfo.cs" />
+    <Compile Include="Utils\RSACrypto.cs" />
+    <Compile Include="Utils\StreamingAssetCacheManager.cs" />
+    <Compile Include="Utils\StreamingAssetManager.cs" />
+    <Compile Include="Utils\SystemConfig.cs" />
+    <Compile Include="Utils\Timer\FrameTimerHeap.cs" />
+    <Compile Include="Utils\Timer\TimerBehaviour.cs" />
+    <Compile Include="Utils\Timer\TimerData.cs" />
+    <Compile Include="Utils\Timer\TimerHeap.cs" />
+    <Compile Include="Utils\Timer\TimerManager.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Utils\XMLParser.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

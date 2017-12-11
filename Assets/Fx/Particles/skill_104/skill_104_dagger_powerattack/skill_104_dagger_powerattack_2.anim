@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skill_104_dagger_powerattack_2
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .550000012
+        value: {x: 0, y: 7.65008068, z: -2.87799096}
+        inSlope: {x: 0, y: -11.4358625, z: 6.15180779}
+        outSlope: {x: 0, y: -11.4358625, z: 6.15180779}
+        tangentMode: -559038737
+      - time: .850000024
+        value: {x: 0, y: 4.21932173, z: -1.03244853}
+        inSlope: {x: 0, y: -11.4358625, z: 6.15180779}
+        outSlope: {x: 0, y: -11.4358625, z: 6.15180779}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Particle System1
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .433333337
+        value: 1
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      - time: .966666758
+        value: 0
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbxl_104_dagger_powerattack_2_tiaotiao
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .433333337
+        value: 1
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      - time: .966666758
+        value: 0
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbxl_104_dagger_powerattack_2_tiaotiao
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .449999988
+        value: .99000001
+        inSlope: 32.733326
+        outSlope: 32.733326
+        tangentMode: 10
+      - time: .600000024
+        value: 5.9000001
+        inSlope: 32.733326
+        outSlope: 32.733326
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LengthScale
+    path: Particle System1
+    classID: 199
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .433333337
+        value: 1
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      - time: .966666758
+        value: 0
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbxl_104_dagger_powerattack_2_tiaotiao
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .433333337
+        value: 1
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      - time: .966666758
+        value: 0
+        inSlope: -1.87499964
+        outSlope: -1.87499964
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbxl_104_dagger_powerattack_2_tiaotiao
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .449999988
+        value: .99000001
+        inSlope: 32.733326
+        outSlope: 32.733326
+        tangentMode: 10
+      - time: .600000024
+        value: 5.9000001
+        inSlope: 32.733326
+        outSlope: 32.733326
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LengthScale
+    path: Particle System1
+    classID: 199
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .550000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .850000024
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Particle System1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .550000012
+        value: 7.65008068
+        inSlope: -11.4358625
+        outSlope: -11.4358625
+        tangentMode: 10
+      - time: .850000024
+        value: 4.21932173
+        inSlope: -11.4358625
+        outSlope: -11.4358625
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Particle System1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .550000012
+        value: -2.87799096
+        inSlope: 6.15180779
+        outSlope: 6.15180779
+        tangentMode: 10
+      - time: .850000024
+        value: -1.03244853
+        inSlope: 6.15180779
+        outSlope: 6.15180779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Particle System1
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

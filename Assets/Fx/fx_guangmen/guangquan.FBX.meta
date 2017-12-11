@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 51176aea2abf8d84c88f1059725d0136
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cylinder001
+    100004: guangquan
+    100006: Plane001
+    100008: Plane002
+    100010: Plane003
+    100012: Plane004
+    400000: //RootNode
+    400002: Cylinder001
+    400004: guangquan
+    400006: Plane001
+    400008: Plane002
+    400010: Plane003
+    400012: Plane004
+    2300000: //RootNode
+    2300002: Cylinder001
+    2300004: guangquan
+    2300006: Plane001
+    2300008: Plane002
+    2300010: Plane003
+    2300012: Plane004
+    3300000: //RootNode
+    3300002: Cylinder001
+    3300004: guangquan
+    3300006: Plane001
+    3300008: Plane002
+    3300010: Plane003
+    3300012: Plane004
+    4300000: guangquan
+    4300002: Cylinder001
+    4300004: Plane001
+    4300006: Cylinder002
+    4300008: Plane002
+    4300010: Plane003
+    4300012: Plane004
+    7400000: guangquan
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: guangquan
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34.0000038
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

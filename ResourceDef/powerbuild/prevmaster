@@ -1,0 +1,150 @@
+#!/usr/bin/perl -w 
+use IO::Select;
+use IO::Socket;
+
+$lsn = IO::Socket::INET->new(Listen => 100, LocalPort => 9527) or die "cannot new socket\n";
+$sel = IO::Select->new( $lsn ) or die"fail to new select\n";
+my %tasklist=();
+my %taskOnDoing=();
+my %filelist=();
+print "server is ready for client \n";
+while(@ready = $sel->can_read)
+{
+    foreach $fh (@ready)
+	{
+        if($fh == $lsn) {
+             # Create a new socket
+             $new = $lsn->accept;
+             $sel->add($new);
+			 print "a new client is connected! i ma total ha -> ". ($sel->count()-1) . "\n";
+         }
+         else {
+			if($fh)
+			{
+             # Process socket
+			 $_=<$fh>;
+			 if($_ && $_ eq "" )
+			 {
+				$sel->remove($fh);
+				$fh->close;
+				print "a client disconnected! i ma total ha -> ".( $sel->count()-1) . "\n";
+			 }
+			 elsif($_)
+			 {
+				print $_ ;
+				my $ret;
+				@temp=split(/->/);
+				print $_;
+				if($temp[0] eq "+")
+				{
+					#add a task
+					$tasklist{$temp[1]}=1;
+					$ret="ok\n";
+					@k=keys %tasklist;
+					print "add a new task " . $temp[1];
+				}
+				elsif($temp[0] eq "-")
+				{
+					#delete a task
+					if(exists $tasklist{$temp[1]})
+					{
+						delete $tasklist{$temp[1]};
+						$ret="ok\n";
+					}
+					else
+					{
+						$ret="fail\n";
+					}
+				}
+				elsif($temp[0] eq "^")
+				{
+					if(exists $taskOnDoing{$temp[1]})
+					{
+						delete $taskOnDoing{$temp[1]};
+						$ret="ok\n";
+					}
+					else
+					{
+						$ret="fail\n";
+					}
+				}
+				elsif($temp[0] eq "~")
+				{
+					#get a task
+					if(%tasklist)
+					{
+						@k=keys %tasklist;
+						$ret=$k[0];
+						$taskOnDoing{$k[0]}=1;
+						delete $tasklist{$k[0]};
+					}
+					else
+					{
+						$ret="neyo\n";
+					}
+				}
+				elsif($temp[0] eq "?")
+				{
+					#query for the progress
+					if(%tasklist)
+					{
+						@k=keys %tasklist;
+						$ret= @k ."\n";
+					}
+					else
+					{
+						$ret="0/0\n";
+					}
+				}
+				elsif($temp[0] eq ">")
+				{
+					print "recv buffer write 2 file\n";
+					&write2file($temp[1],$temp[2]);
+				}
+				if($temp[0] eq "close\n")
+				{
+					$sel->remove($fh);
+					$fh->close;
+					print "close one socket current count is -> " . ($sel->count()-1) ."\n";
+				}
+				else
+				{
+					$fh->send($ret,0);
+				}
+			 }
+			}
+			else
+			{
+				
+			}
+         }
+     }
+}
+
+sub write2file
+{
+	my $file="mogo/" . $_[0];
+	my $F;
+	if(exists $filelist{$_[0]})
+	{
+		$F=$filelist{$_[0]};
+	}
+	else
+	{
+		open($F,">$file") or print"cannot create file $file\n";
+		$filelist{$_[0]}=$F;
+	}
+	#write the buffer to file
+	binmode $F;
+	print $F $_[1];
+}
+
+sub FinishedTransformFile
+{
+	if(exists $filelist{$_[0]})
+	{
+		close($filelist{$_[0]});
+		delete $filelist{$_[0]};
+	}
+}
+print "the end to quit\n";

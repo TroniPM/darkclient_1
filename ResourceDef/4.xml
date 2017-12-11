@@ -1,0 +1,324 @@
+<root>
+ <r>
+    <name>LightProbes</name>
+    <type>LightProbes</type>
+    <packLevel>LightProbes.asset</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>	
+    <extention>LightProbes.asset</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>scene_10002_Login</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10002_Login</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  
+  <r>
+    <name>scene_10003_ChooseCharactor</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10003_ChooseCharactor</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  
+  <r>
+    <name>scene_10004_City</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10004_City</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  
+  <r>
+    <name>scene_10100_Experience</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10100_Experience</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10101_Training</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10101_Training</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10102_Training</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10102_Training</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10103_Centaur</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10103_Centaur</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>suit</name>
+    <type>fbx</type>
+    <packLevel>.prefab .fbx</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.FBX .prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Avatar/101/suit</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/102/suit</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/103/suit</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/104/suit</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>equip</name>
+    <type>fbx</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .mat .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.FBX .prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Avatar/101/equip</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/102/equip</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/103/equip</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Characters/Avatar/104/equip</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>texture</name>
+    <type>materials</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .mat .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.mat</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Avatar</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Fx/weapon_trail</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/GUI/mat</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>character</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Avatar</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>controller</name>
+    <type>controller</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .anim .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.controller</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Avatar</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>anim</name>
+    <type>controller</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .anim .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.anim</extention>
+    <folders>
+      <r>
+        <path>Resources/Fx/fx_anim</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>png</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.png</extention>
+    <folders>
+      <r>
+        <path>Resources/Images</path>
+        <deep>false</deep>
+      </r>
+      <r>
+        <path>Resources/Textures</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>FXGear</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .anim .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Fx</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/Gear</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>shader</name>
+    <type>shader</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.shader</extention>
+    <folders>
+      <r>
+        <path>Resources/Shader</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Plugins/NGUI/Resources/Shaders</path>
+        <deep>true</deep>
+      </r>
+      <r>
+        <path>Resources/builtin_shaders-4.3.0</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>sound</name>
+    <type>sound</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.mp3</extention>
+    <folders>
+      <r>
+        <path>Resources/se</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>unity</name>
+    <type>unity</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.unity</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+</root>

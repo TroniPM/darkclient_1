@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoForwardLoadingUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6be4256532ce40441a2b43e49f18d968, type: 2}
+  sprites:
+  - name: dl_lodingtg
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 270
+      width: 98
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 270
+      width: 98
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_lodingtd
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 26
+      width: 23
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 7
+      y: 33
+      width: 9
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0434782617
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: ty_jdutiao_blue
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 52
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 52
+      height: 25
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0799999982
+    paddingBottom: .0399999991
+  - name: ty_kafeidi
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 434
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 470
+      y: 434
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_lodingt
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 455
+      width: 9
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 455
+      width: 9
+      height: 16
+    rotated: 0
+    paddingLeft: .222222224
+    paddingRight: .111111112
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xszy_sz_4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 84
+      width: 97
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 84
+      width: 97
+      height: 55
+    rotated: 0
+    paddingLeft: .0206185561
+    paddingRight: .010309278
+    paddingTop: .272727281
+    paddingBottom: .181818187
+  - name: xszy_sz_3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 140
+      width: 95
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 140
+      width: 95
+      height: 61
+    rotated: 0
+    paddingLeft: .0315789469
+    paddingRight: .0210526325
+    paddingTop: .229508191
+    paddingBottom: .0819672123
+  - name: xszy_sz_2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 202
+      width: 95
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 202
+      width: 95
+      height: 67
+    rotated: 0
+    paddingLeft: .0210526325
+    paddingRight: .0315789469
+    paddingTop: .149253726
+    paddingBottom: .0447761193
+  - name: xszy_sz_1
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 353
+      width: 92
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 353
+      width: 92
+      height: 77
+    rotated: 0
+    paddingLeft: .0326086953
+    paddingRight: .0543478243
+    paddingTop: .0259740259
+    paddingBottom: .012987013
+  - name: btn_04down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 351
+      width: 208
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 351
+      width: 208
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0126582282
+    paddingBottom: 0
+  - name: btn_03down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 431
+      width: 234
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 431
+      width: 234
+      height: 81
+    rotated: 0
+    paddingLeft: .00427350448
+    paddingRight: .00427350448
+    paddingTop: .0123456791
+    paddingBottom: .0246913582
+  - name: btn_03up
+    outer:
+      serializedVersion: 2
+      x: 235
+      y: 431
+      width: 234
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 235
+      y: 431
+      width: 234
+      height: 81
+    rotated: 0
+    paddingLeft: .00427350448
+    paddingRight: .00427350448
+    paddingTop: .0123456791
+    paddingBottom: .0246913582
+  - name: btn_04up
+    outer:
+      serializedVersion: 2
+      x: 209
+      y: 351
+      width: 208
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 209
+      y: 351
+      width: 208
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0126582282
+    paddingBottom: 0
+  - name: ty_tipjsb
+    outer:
+      serializedVersion: 2
+      x: 101
+      y: 258
+      width: 48
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 111
+      y: 270
+      width: 28
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ty_tip
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 472
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 482
+      y: 485
+      width: 17
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ty_tipss
+    outer:
+      serializedVersion: 2
+      x: 470
+      y: 443
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 448
+      width: 17
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

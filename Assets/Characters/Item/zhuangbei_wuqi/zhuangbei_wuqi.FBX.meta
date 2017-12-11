@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: b54764a421bda4d4f97b109c87404743
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: armor_body
+    100002: armor_clavicle
+    100004: armor_feet
+    100006: armor_hand
+    100008: armor_leg
+    100010: armor_necklace
+    100012: armor_ring
+    100014: armor_waist
+    100016: aromr_head
+    100018: weapon_blade
+    100020: weapon_bow
+    100022: weapon_dagger
+    100024: weapon_fan
+    100026: weapon_fist
+    100028: weapon_gun
+    100030: weapon_staff
+    100032: weapon_twinblade
+    100034: //RootNode
+    100036: zhuangbei_wuqi_root
+    400000: armor_body
+    400002: armor_clavicle
+    400004: armor_feet
+    400006: armor_hand
+    400008: armor_leg
+    400010: armor_necklace
+    400012: armor_ring
+    400014: armor_waist
+    400016: aromr_head
+    400018: weapon_blade
+    400020: weapon_bow
+    400022: weapon_dagger
+    400024: weapon_fan
+    400026: weapon_fist
+    400028: weapon_gun
+    400030: weapon_staff
+    400032: weapon_twinblade
+    400034: //RootNode
+    400036: zhuangbei_wuqi_root
+    2300000: armor_body
+    2300002: armor_clavicle
+    2300004: armor_feet
+    2300006: armor_hand
+    2300008: armor_leg
+    2300010: armor_necklace
+    2300012: armor_ring
+    2300014: armor_waist
+    2300016: aromr_head
+    2300018: weapon_blade
+    2300020: weapon_bow
+    2300022: weapon_dagger
+    2300024: weapon_fan
+    2300026: weapon_fist
+    2300028: weapon_gun
+    2300030: weapon_staff
+    2300032: weapon_twinblade
+    3300000: armor_body
+    3300002: armor_clavicle
+    3300004: armor_feet
+    3300006: armor_hand
+    3300008: armor_leg
+    3300010: armor_necklace
+    3300012: armor_ring
+    3300014: armor_waist
+    3300016: aromr_head
+    3300018: weapon_blade
+    3300020: weapon_bow
+    3300022: weapon_dagger
+    3300024: weapon_fan
+    3300026: weapon_fist
+    3300028: weapon_gun
+    3300030: weapon_staff
+    3300032: weapon_twinblade
+    4300000: armor_waist
+    4300002: armor_hand
+    4300004: armor_ring
+    4300006: weapon_bow
+    4300008: weapon_fan
+    4300010: weapon_dagger
+    4300012: weapon_twinblade
+    4300014: armor_clavicle
+    4300016: armor_leg
+    4300018: armor_necklace
+    4300020: armor_body
+    4300022: weapon_fist
+    4300024: aromr_head
+    4300026: weapon_staff
+    4300028: weapon_blade
+    4300030: armor_feet
+    4300032: weapon_gun
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

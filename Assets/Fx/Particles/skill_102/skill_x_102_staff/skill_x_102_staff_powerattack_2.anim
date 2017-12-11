@@ -1,0 +1,2673 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skill_x_102_staff_powerattack_2
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: 6.36531681e-08, y: 1.09266829, z: 1.6228497}
+        inSlope: {x: 2.2290792e-06, y: 3.9339061e-06, z: 24.9318295}
+        outSlope: {x: 2.2290792e-06, y: 3.9339061e-06, z: 24.9318295}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: 8.06679623e-07, y: 1.09266961, z: 9.93346024}
+        inSlope: {x: 2.2290792e-06, y: 3.9339061e-06, z: 24.9318295}
+        outSlope: {x: 2.2290792e-06, y: 3.9339061e-06, z: 24.9318295}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_9
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: -.58690846, y: 1.09266806, z: 1.59709573}
+        inSlope: {x: -10.5887909, y: 3.21865036e-06, z: 19.6013203}
+        outSlope: {x: -10.5887909, y: 3.21865036e-06, z: 19.6013203}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: -4.11650562, y: 1.09266913, z: 8.13086987}
+        inSlope: {x: -10.5887909, y: 3.21865036e-06, z: 19.6013203}
+        outSlope: {x: -10.5887909, y: 3.21865036e-06, z: 19.6013203}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_8
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: .50781244, y: 1.09266806, z: 1.57868016}
+        inSlope: {x: 11.2096729, y: -6.43730073e-06, z: 19.2309933}
+        outSlope: {x: 11.2096729, y: -6.43730073e-06, z: 19.2309933}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: 4.24437046, y: 1.09266591, z: 7.98901176}
+        inSlope: {x: 11.2096729, y: -6.43730073e-06, z: 19.2309933}
+        outSlope: {x: 11.2096729, y: -6.43730073e-06, z: 19.2309933}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_10
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: 1.06011009, y: .365777105, z: 1.06011009}
+        inSlope: {x: 2.33334804, y: 9.56850624, z: 2.33334804}
+        outSlope: {x: 2.33334804, y: 9.56850624, z: 2.33334804}
+        tangentMode: -559038737
+      - time: .699999988
+        value: {x: 1.33233404, y: 1.48210299, z: 1.33233404}
+        inSlope: {x: 3.22540474, y: 8.23464394, z: 3.22540474}
+        outSlope: {x: 3.22540474, y: 8.23464394, z: 3.22540474}
+        tangentMode: -559038737
+      - time: .766666651
+        value: {x: 1.60683143, y: 1.942155, z: 1.60683143}
+        inSlope: {x: 4.05183363, y: 5.85037422, z: 4.05183363}
+        outSlope: {x: 4.05183363, y: 5.85037422, z: 4.05183363}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: 2.20476246, y: 2.66215038, z: 2.20476246}
+        inSlope: {x: 3.98620582, y: 4.79996824, z: 3.98620582}
+        outSlope: {x: 3.98620582, y: 4.79996824, z: 3.98620582}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_9
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: .725857973, y: .250447929, z: .725857854}
+        inSlope: {x: 5.19836617, y: 10.5570431, z: 5.19836712}
+        outSlope: {x: 5.19836617, y: 10.5570431, z: 5.19836712}
+        tangentMode: -559038737
+      - time: .699999988
+        value: {x: 1.33233404, y: 1.48210299, z: 1.33233404}
+        inSlope: {x: 4.65791035, y: 8.71274948, z: 4.65791035}
+        outSlope: {x: 4.65791035, y: 8.71274948, z: 4.65791035}
+        tangentMode: -559038737
+      - time: .766666651
+        value: {x: 1.60683095, y: 1.94000006, z: 1.60683095}
+        inSlope: {x: 4.05182981, y: 5.83422756, z: 4.05182981}
+        outSlope: {x: 4.05182981, y: 5.83422756, z: 4.05182981}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: 2.20476198, y: 2.66000009, z: 2.20476198}
+        inSlope: {x: 3.98620582, y: 4.79999924, z: 3.98620582}
+        outSlope: {x: 3.98620582, y: 4.79999924, z: 3.98620582}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_8
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: {x: .725857973, y: .250447929, z: .725857854}
+        inSlope: {x: 5.19836617, y: 10.5390167, z: 5.19836712}
+        outSlope: {x: 5.19836617, y: 10.5390167, z: 5.19836712}
+        tangentMode: -559038737
+      - time: .699999988
+        value: {x: 1.33233404, y: 1.48000002, z: 1.33233404}
+        inSlope: {x: 4.65791035, y: 8.71950912, z: 4.65791035}
+        outSlope: {x: 4.65791035, y: 8.71950912, z: 4.65791035}
+        tangentMode: -559038737
+      - time: .766666651
+        value: {x: 1.60683095, y: 1.94000006, z: 1.60683095}
+        inSlope: {x: 4.05182981, y: 5.85000038, z: 4.05182981}
+        outSlope: {x: 4.05182981, y: 5.85000038, z: 4.05182981}
+        tangentMode: -559038737
+      - time: .916666687
+        value: {x: 2.20476198, y: 2.66000009, z: 2.20476198}
+        inSlope: {x: 3.98620582, y: 4.79999924, z: 3.98620582}
+        outSlope: {x: 3.98620582, y: 4.79999924, z: 3.98620582}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_skill_x_102_staff_skill_10
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .849999964
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666627
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: 7.4999938
+        outSlope: 7.4999938
+        tangentMode: 10
+      - time: .700000107
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333373
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666579
+        value: 0
+        inSlope: -3.75000358
+        outSlope: -3.75000358
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -2.57974052
+        outSlope: -2.57974052
+        tangentMode: 10
+      - time: .75
+        value: .699030399
+        inSlope: -2.86198854
+        outSlope: -2.86198854
+        tangentMode: 10
+      - time: .833333313
+        value: .437010765
+        inSlope: -2.64262295
+        outSlope: -2.64262295
+        tangentMode: 10
+      - time: .983333349
+        value: .115859233
+        inSlope: -1.76565981
+        outSlope: -1.76565981
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.39031017
+        outSlope: -1.39031017
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -5.3693161
+        outSlope: -5.3693161
+        tangentMode: 10
+      - time: .75
+        value: .373580039
+        inSlope: -2.82166028
+        outSlope: -2.82166028
+        tangentMode: 10
+      - time: .833333313
+        value: .350746334
+        inSlope: -1.00931907
+        outSlope: -1.00931907
+        tangentMode: 10
+      - time: .983333349
+        value: .0890512466
+        inSlope: -1.40662408
+        outSlope: -1.40662408
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -.319829822
+        outSlope: -.319829822
+        tangentMode: 10
+      - time: .75
+        value: .962686539
+        inSlope: .0639666319
+        outSlope: .0639666319
+        tangentMode: 10
+      - time: .833333313
+        value: 1.00000012
+        inSlope: -2.08954883
+        outSlope: -2.08954883
+        tangentMode: 10
+      - time: .983333349
+        value: .305970848
+        inSlope: -4.1492548
+        outSlope: -4.1492548
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -3.6716485
+        outSlope: -3.6716485
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666687
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666687
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .75
+        value: .699030399
+        inSlope: -2.86198759
+        outSlope: -2.86198759
+        tangentMode: 10
+      - time: .833333313
+        value: .437010795
+        inSlope: -2.64262295
+        outSlope: -2.64262295
+        tangentMode: 10
+      - time: .983333349
+        value: .115859203
+        inSlope: -1.76565993
+        outSlope: -1.76565993
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .75
+        value: .373580009
+        inSlope: -2.82165933
+        outSlope: -2.82165933
+        tangentMode: 10
+      - time: .833333313
+        value: .350746304
+        inSlope: -1.00931895
+        outSlope: -1.00931895
+        tangentMode: 10
+      - time: .983333349
+        value: .0890512466
+        inSlope: -1.40662384
+        outSlope: -1.40662384
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .75
+        value: .962686479
+        inSlope: .0639661103
+        outSlope: .0639661103
+        tangentMode: 10
+      - time: .833333313
+        value: 1
+        inSlope: -2.08954883
+        outSlope: -2.08954883
+        tangentMode: 10
+      - time: .983333349
+        value: .305970788
+        inSlope: -4.14925385
+        outSlope: -4.14925385
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .699999988
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333313
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: 0
+        inSlope: -3.75000024
+        outSlope: -3.75000024
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 8.98167573e-21
+        outSlope: 8.98167573e-21
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .883333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .99999994
+        value: 0
+        inSlope: -4.28571606
+        outSlope: -4.28571606
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.67857146
+        outSlope: 2.67857146
+        tangentMode: 10
+      - time: .99999994
+        value: 0
+        inSlope: -2.14285755
+        outSlope: -2.14285755
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.6785717
+        outSlope: 2.6785717
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.14285707
+        outSlope: -2.14285707
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.6785717
+        outSlope: 2.6785717
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.14285707
+        outSlope: -2.14285707
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 6.36531681e-08
+        inSlope: 2.2290792e-06
+        outSlope: 2.2290792e-06
+        tangentMode: 10
+      - time: .916666687
+        value: 8.06679623e-07
+        inSlope: 2.2290792e-06
+        outSlope: 2.2290792e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.09266829
+        inSlope: 3.9339061e-06
+        outSlope: 3.9339061e-06
+        tangentMode: 10
+      - time: .916666687
+        value: 1.09266961
+        inSlope: 3.9339061e-06
+        outSlope: 3.9339061e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.6228497
+        inSlope: 24.9318295
+        outSlope: 24.9318295
+        tangentMode: 10
+      - time: .916666687
+        value: 9.93346024
+        inSlope: 24.9318295
+        outSlope: 24.9318295
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.06011009
+        inSlope: 2.33334804
+        outSlope: 2.33334804
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 3.22540474
+        outSlope: 3.22540474
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683143
+        inSlope: 4.05183363
+        outSlope: 4.05183363
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476246
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .365777105
+        inSlope: 9.56850624
+        outSlope: 9.56850624
+        tangentMode: 10
+      - time: .699999988
+        value: 1.48210299
+        inSlope: 8.23464394
+        outSlope: 8.23464394
+        tangentMode: 10
+      - time: .766666651
+        value: 1.942155
+        inSlope: 5.85037422
+        outSlope: 5.85037422
+        tangentMode: 10
+      - time: .916666687
+        value: 2.66215038
+        inSlope: 4.79996824
+        outSlope: 4.79996824
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.06011009
+        inSlope: 2.33334804
+        outSlope: 2.33334804
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 3.22540474
+        outSlope: 3.22540474
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683143
+        inSlope: 4.05183363
+        outSlope: 4.05183363
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476246
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .849999964
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666627
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_9
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193645
+        outSlope: .774193645
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 0
+        inSlope: 7.4999938
+        outSlope: 7.4999938
+        tangentMode: 10
+      - time: .700000107
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333373
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666579
+        value: 0
+        inSlope: -3.75000358
+        outSlope: -3.75000358
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -2.57974052
+        outSlope: -2.57974052
+        tangentMode: 10
+      - time: .75
+        value: .699030399
+        inSlope: -2.86198854
+        outSlope: -2.86198854
+        tangentMode: 10
+      - time: .833333313
+        value: .437010765
+        inSlope: -2.64262295
+        outSlope: -2.64262295
+        tangentMode: 10
+      - time: .983333349
+        value: .115859233
+        inSlope: -1.76565981
+        outSlope: -1.76565981
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.39031017
+        outSlope: -1.39031017
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -5.3693161
+        outSlope: -5.3693161
+        tangentMode: 10
+      - time: .75
+        value: .373580039
+        inSlope: -2.82166028
+        outSlope: -2.82166028
+        tangentMode: 10
+      - time: .833333313
+        value: .350746334
+        inSlope: -1.00931907
+        outSlope: -1.00931907
+        tangentMode: 10
+      - time: .983333349
+        value: .0890512466
+        inSlope: -1.40662408
+        outSlope: -1.40662408
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333385
+        value: 1
+        inSlope: -.319829822
+        outSlope: -.319829822
+        tangentMode: 10
+      - time: .75
+        value: .962686539
+        inSlope: .0639666319
+        outSlope: .0639666319
+        tangentMode: 10
+      - time: .833333313
+        value: 1.00000012
+        inSlope: -2.08954883
+        outSlope: -2.08954883
+        tangentMode: 10
+      - time: .983333349
+        value: .305970848
+        inSlope: -4.1492548
+        outSlope: -4.1492548
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -3.6716485
+        outSlope: -3.6716485
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_11
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: -.58690846
+        inSlope: -10.5887909
+        outSlope: -10.5887909
+        tangentMode: 10
+      - time: .916666687
+        value: -4.11650562
+        inSlope: -10.5887909
+        outSlope: -10.5887909
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.09266806
+        inSlope: 3.21865036e-06
+        outSlope: 3.21865036e-06
+        tangentMode: 10
+      - time: .916666687
+        value: 1.09266913
+        inSlope: 3.21865036e-06
+        outSlope: 3.21865036e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.59709573
+        inSlope: 19.6013203
+        outSlope: 19.6013203
+        tangentMode: 10
+      - time: .916666687
+        value: 8.13086987
+        inSlope: 19.6013203
+        outSlope: 19.6013203
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .725857973
+        inSlope: 5.19836617
+        outSlope: 5.19836617
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 4.65791035
+        outSlope: 4.65791035
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683095
+        inSlope: 4.05182981
+        outSlope: 4.05182981
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476198
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .250447929
+        inSlope: 10.5570431
+        outSlope: 10.5570431
+        tangentMode: 10
+      - time: .699999988
+        value: 1.48210299
+        inSlope: 8.71274948
+        outSlope: 8.71274948
+        tangentMode: 10
+      - time: .766666651
+        value: 1.94000006
+        inSlope: 5.83422756
+        outSlope: 5.83422756
+        tangentMode: 10
+      - time: .916666687
+        value: 2.66000009
+        inSlope: 4.79999924
+        outSlope: 4.79999924
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .725857854
+        inSlope: 5.19836712
+        outSlope: 5.19836712
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 4.65791035
+        outSlope: 4.65791035
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683095
+        inSlope: 4.05182981
+        outSlope: 4.05182981
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476198
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .50781244
+        inSlope: 11.2096729
+        outSlope: 11.2096729
+        tangentMode: 10
+      - time: .916666687
+        value: 4.24437046
+        inSlope: 11.2096729
+        outSlope: 11.2096729
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.09266806
+        inSlope: -6.43730073e-06
+        outSlope: -6.43730073e-06
+        tangentMode: 10
+      - time: .916666687
+        value: 1.09266591
+        inSlope: -6.43730073e-06
+        outSlope: -6.43730073e-06
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 1.57868016
+        inSlope: 19.2309933
+        outSlope: 19.2309933
+        tangentMode: 10
+      - time: .916666687
+        value: 7.98901176
+        inSlope: 19.2309933
+        outSlope: 19.2309933
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .725857973
+        inSlope: 5.19836617
+        outSlope: 5.19836617
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 4.65791035
+        outSlope: 4.65791035
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683095
+        inSlope: 4.05182981
+        outSlope: 4.05182981
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476198
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .250447929
+        inSlope: 10.5390167
+        outSlope: 10.5390167
+        tangentMode: 10
+      - time: .699999988
+        value: 1.48000002
+        inSlope: 8.71950912
+        outSlope: 8.71950912
+        tangentMode: 10
+      - time: .766666651
+        value: 1.94000006
+        inSlope: 5.85000038
+        outSlope: 5.85000038
+        tangentMode: 10
+      - time: .916666687
+        value: 2.66000009
+        inSlope: 4.79999924
+        outSlope: 4.79999924
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: .725857854
+        inSlope: 5.19836712
+        outSlope: 5.19836712
+        tangentMode: 10
+      - time: .699999988
+        value: 1.33233404
+        inSlope: 4.65791035
+        outSlope: 4.65791035
+        tangentMode: 10
+      - time: .766666651
+        value: 1.60683095
+        inSlope: 4.05182981
+        outSlope: 4.05182981
+        tangentMode: 10
+      - time: .916666687
+        value: 2.20476198
+        inSlope: 3.98620582
+        outSlope: 3.98620582
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666687
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_10
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 9.99999809
+        outSlope: 9.99999809
+        tangentMode: 10
+      - time: .633333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .916666687
+        value: 0
+        inSlope: -7.50000048
+        outSlope: -7.50000048
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_8
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .75
+        value: .699030399
+        inSlope: -2.86198759
+        outSlope: -2.86198759
+        tangentMode: 10
+      - time: .833333313
+        value: .437010795
+        inSlope: -2.64262295
+        outSlope: -2.64262295
+        tangentMode: 10
+      - time: .983333349
+        value: .115859203
+        inSlope: -1.76565993
+        outSlope: -1.76565993
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .75
+        value: .373580009
+        inSlope: -2.82165933
+        outSlope: -2.82165933
+        tangentMode: 10
+      - time: .833333313
+        value: .350746304
+        inSlope: -1.00931895
+        outSlope: -1.00931895
+        tangentMode: 10
+      - time: .983333349
+        value: .0890512466
+        inSlope: -1.40662384
+        outSlope: -1.40662384
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .75
+        value: .962686479
+        inSlope: .0639661103
+        outSlope: .0639661103
+        tangentMode: 10
+      - time: .833333313
+        value: 1
+        inSlope: -2.08954883
+        outSlope: -2.08954883
+        tangentMode: 10
+      - time: .983333349
+        value: .305970788
+        inSlope: -4.14925385
+        outSlope: -4.14925385
+        tangentMode: 10
+      - time: 1.06666672
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .699999988
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .833333313
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666639
+        value: 0
+        inSlope: -3.75000024
+        outSlope: -3.75000024
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .633333325
+        value: 0
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      - time: 1.14999998
+        value: .400000006
+        inSlope: .774193585
+        outSlope: .774193585
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_12
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 8.98167573e-21
+        outSlope: 8.98167573e-21
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .883333325
+        value: .5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .99999994
+        value: 0
+        inSlope: -4.28571606
+        outSlope: -4.28571606
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_13
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.67857146
+        outSlope: 2.67857146
+        tangentMode: 10
+      - time: .99999994
+        value: 0
+        inSlope: -2.14285755
+        outSlope: -2.14285755
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_14
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.6785717
+        outSlope: 2.6785717
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.14285707
+        outSlope: -2.14285707
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_15
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -2.57973933
+        outSlope: -2.57973933
+        tangentMode: 10
+      - time: .816666663
+        value: .699030399
+        inSlope: -3.2550168
+        outSlope: -3.2550168
+        tangentMode: 10
+      - time: .883333325
+        value: .437010795
+        inSlope: -3.16946554
+        outSlope: -3.16946554
+        tangentMode: 10
+      - time: 1.01666665
+        value: .115859203
+        inSlope: -1.89947343
+        outSlope: -1.89947343
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.39030981
+        outSlope: -1.39030981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -5.36931419
+        outSlope: -5.36931419
+        tangentMode: 10
+      - time: .816666663
+        value: .373580009
+        inSlope: -2.85590982
+        outSlope: -2.85590982
+        tangentMode: 10
+      - time: .883333325
+        value: .350746304
+        inSlope: -1.15260935
+        outSlope: -1.15260935
+        tangentMode: 10
+      - time: 1.01666665
+        value: .0890512466
+        inSlope: -1.51566374
+        outSlope: -1.51566374
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -1.06861448
+        outSlope: -1.06861448
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 1
+        inSlope: -.319830149
+        outSlope: -.319830149
+        tangentMode: 10
+      - time: .816666663
+        value: .962686479
+        inSlope: .119936362
+        outSlope: .119936362
+        tangentMode: 10
+      - time: .883333325
+        value: 1
+        inSlope: -2.3227582
+        outSlope: -2.3227582
+        tangentMode: 10
+      - time: 1.01666665
+        value: .305970788
+        inSlope: -4.43843365
+        outSlope: -4.43843365
+        tangentMode: 10
+      - time: 1.10000002
+        value: 0
+        inSlope: -3.67164779
+        outSlope: -3.67164779
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: 7.50000048
+        outSlope: 7.50000048
+        tangentMode: 10
+      - time: .766666651
+        value: .5
+        inSlope: 2.6785717
+        outSlope: 2.6785717
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: -2.14285707
+        outSlope: -2.14285707
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .699999988
+        value: 0
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      - time: 1.18333328
+        value: .400000006
+        inSlope: .827586293
+        outSlope: .827586293
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fbx_skill_x_102_staff_skill_16
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

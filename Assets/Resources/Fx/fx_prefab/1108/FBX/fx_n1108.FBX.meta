@@ -1,0 +1,110 @@
+fileFormatVersion: 2
+guid: 885a1a378d885e644be70010081cbe6d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: blade_skill_2_groundtwistsmoke
+    100002: edge_1
+    100004: edge_2
+    100006: edge_3
+    100008: edge_4
+    100010: edge_smoke
+    100012: fist_skill_1_groundexplode
+    100014: //RootNode
+    100016: rush_ground_smoke
+    100018: groundsmoke
+    100020: groundtwistsmoke
+    400000: blade_skill_2_groundtwistsmoke
+    400002: edge_1
+    400004: edge_2
+    400006: edge_3
+    400008: edge_4
+    400010: edge_smoke
+    400012: fist_skill_1_groundexplode
+    400014: //RootNode
+    400016: rush_ground_smoke
+    400018: groundsmoke
+    400020: groundtwistsmoke
+    2300000: blade_skill_2_groundtwistsmoke
+    2300002: edge_1
+    2300004: edge_2
+    2300006: edge_3
+    2300008: edge_4
+    2300010: edge_smoke
+    2300012: fist_skill_1_groundexplode
+    2300014: rush_ground_smoke
+    2300016: groundsmoke
+    2300018: groundtwistsmoke
+    3300000: blade_skill_2_groundtwistsmoke
+    3300002: edge_1
+    3300004: edge_2
+    3300006: edge_3
+    3300008: edge_4
+    3300010: edge_smoke
+    3300012: fist_skill_1_groundexplode
+    3300014: rush_ground_smoke
+    3300016: groundsmoke
+    3300018: groundtwistsmoke
+    4300000: blade_skill_2_groundtwistsmoke
+    4300002: edge_1
+    4300004: edge_smoke
+    4300006: edge_2
+    4300008: edge_3
+    4300010: edge_4
+    4300012: rush_ground_smoke
+    4300014: fist_skill_1_groundexplode
+    4300016: groundtwistsmoke
+    4300018: groundsmoke
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

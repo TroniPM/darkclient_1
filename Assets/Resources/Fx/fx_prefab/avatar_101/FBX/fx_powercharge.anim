@@ -1,0 +1,771 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_powercharge
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.149999872
+        outSlope: -.149999872
+        tangentMode: 10
+      - time: .133333325
+        value: .980000019
+        inSlope: -2.27499986
+        outSlope: -2.27499986
+        tangentMode: 10
+      - time: .333333343
+        value: .100000001
+        inSlope: -4.39999962
+        outSlope: -4.39999962
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -2.69999981
+        outSlope: -2.69999981
+        tangentMode: 10
+      - time: .333333343
+        value: .100000001
+        inSlope: -2.69999981
+        outSlope: -2.69999981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .133333325
+        value: 1
+        inSlope: -.13059704
+        outSlope: -.13059704
+        tangentMode: 10
+      - time: .333333343
+        value: .947761178
+        inSlope: -.26119408
+        outSlope: -.26119408
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .72904712
+        inSlope: .810980678
+        outSlope: .810980678
+        tangentMode: 10
+      - time: .133333325
+        value: .837177873
+        inSlope: -.285003006
+        outSlope: -.285003006
+        tangentMode: 10
+      - time: .333333343
+        value: .560980499
+        inSlope: -1.38098669
+        outSlope: -1.38098669
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .119403005
+        inSlope: -.11194066
+        outSlope: -.11194066
+        tangentMode: 10
+      - time: .133333325
+        value: .104477584
+        inSlope: .0187958293
+        outSlope: .0187958293
+        tangentMode: 10
+      - time: .333333343
+        value: .134384051
+        inSlope: .149532318
+        outSlope: .149532318
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3
+        inSlope: -12
+        outSlope: -12
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: -12
+        outSlope: -12
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3
+        inSlope: -6
+        outSlope: -6
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: -6
+        outSlope: -6
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.29999995
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _FinalPower
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 1.27498313e-14
+        outSlope: 1.27498313e-14
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.r
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.g
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.151550174
+        outSlope: -.151550174
+        tangentMode: 10
+      - time: .166666672
+        value: .974741638
+        inSlope: -.151550174
+        outSlope: -.151550174
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .949483335
+        inSlope: .30309999
+        outSlope: .30309999
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: .30309999
+        outSlope: .30309999
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.223880768
+        outSlope: -.223880768
+        tangentMode: 10
+      - time: .166666672
+        value: .962686539
+        inSlope: -.223880768
+        outSlope: -.223880768
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .819538713
+        inSlope: .352474093
+        outSlope: .352474093
+        tangentMode: 10
+      - time: .166666672
+        value: .878284395
+        inSlope: .352474093
+        outSlope: .352474093
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .00746268034
+        inSlope: .558698893
+        outSlope: .558698893
+        tangentMode: 10
+      - time: .166666672
+        value: .100579165
+        inSlope: .558698893
+        outSlope: .558698893
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.29999995
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _FinalPower
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 4
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.149999872
+        outSlope: -.149999872
+        tangentMode: 10
+      - time: .133333325
+        value: .980000019
+        inSlope: -2.27499986
+        outSlope: -2.27499986
+        tangentMode: 10
+      - time: .333333343
+        value: .100000001
+        inSlope: -4.39999962
+        outSlope: -4.39999962
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -2.69999981
+        outSlope: -2.69999981
+        tangentMode: 10
+      - time: .333333343
+        value: .100000001
+        inSlope: -2.69999981
+        outSlope: -2.69999981
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .133333325
+        value: 1
+        inSlope: -.13059704
+        outSlope: -.13059704
+        tangentMode: 10
+      - time: .333333343
+        value: .947761178
+        inSlope: -.26119408
+        outSlope: -.26119408
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .72904712
+        inSlope: .810980678
+        outSlope: .810980678
+        tangentMode: 10
+      - time: .133333325
+        value: .837177873
+        inSlope: -.285003006
+        outSlope: -.285003006
+        tangentMode: 10
+      - time: .333333343
+        value: .560980499
+        inSlope: -1.38098669
+        outSlope: -1.38098669
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .119403005
+        inSlope: -.11194066
+        outSlope: -.11194066
+        tangentMode: 10
+      - time: .133333325
+        value: .104477584
+        inSlope: .0187958293
+        outSlope: .0187958293
+        tangentMode: 10
+      - time: .333333343
+        value: .134384051
+        inSlope: .149532318
+        outSlope: .149532318
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3
+        inSlope: -12
+        outSlope: -12
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: -12
+        outSlope: -12
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimWidth
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 3
+        inSlope: -6
+        outSlope: -6
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: -6
+        outSlope: -6
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimPower
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.29999995
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _FinalPower
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 1.27498313e-14
+        outSlope: 1.27498313e-14
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.r
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _Color.g
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.151550174
+        outSlope: -.151550174
+        tangentMode: 10
+      - time: .166666672
+        value: .974741638
+        inSlope: -.151550174
+        outSlope: -.151550174
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 1
+        inSlope: 3.75604601e-39
+        outSlope: 3.75604601e-39
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .949483335
+        inSlope: .30309999
+        outSlope: .30309999
+        tangentMode: 10
+      - time: .166666672
+        value: 1
+        inSlope: .30309999
+        outSlope: .30309999
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: equip_warrior_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: -.223880768
+        outSlope: -.223880768
+        tangentMode: 10
+      - time: .166666672
+        value: .962686539
+        inSlope: -.223880768
+        outSlope: -.223880768
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.r
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .819538713
+        inSlope: .352474093
+        outSlope: .352474093
+        tangentMode: 10
+      - time: .166666672
+        value: .878284395
+        inSlope: .352474093
+        outSlope: .352474093
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.g
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .00746268034
+        inSlope: .558698893
+        outSlope: .558698893
+        tangentMode: 10
+      - time: .166666672
+        value: .100579165
+        inSlope: .558698893
+        outSlope: .558698893
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _RimColor.b
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.29999995
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      - time: .166666672
+        value: 2
+        inSlope: 4.20000029
+        outSlope: 4.20000029
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _FinalPower
+    path: equip_warrior_fist_01
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

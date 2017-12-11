@@ -1,0 +1,94 @@
+<?xml version="1.0">
+<root>
+
+<server>
+<id>1</id>
+<name>Port 8001</name>
+<ip>192.168.1.102</ip>
+<port>8001</port>
+<group>1</group>
+<flag>5</flag>
+<text/>
+</server>
+
+<server>
+<id>2</id>
+<name>Port 8002</name>
+<ip>192.168.1.102</ip>
+<port>8002</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>3</id>
+<name>Port 8003</name>
+<ip>192.168.1.102</ip>
+<port>8003</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>4</id>
+<name>Port 8004</name>
+<ip>192.168.1.102</ip>
+<port>8004</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>5</id>
+<name>Port 8005</name>
+<ip>192.168.1.102</ip>
+<port>8005</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>6</id>
+<name>Port 8006</name>
+<ip>192.168.1.102</ip>
+<port>8006</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>7</id>
+<name>Port 8007</name>
+<ip>192.168.1.102</ip>
+<port>8007</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>8</id>
+<name>Port 8008</name>
+<ip>192.168.1.102</ip>
+<port>8008</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+<server>
+<id>9</id>
+<name>Port 8009</name>
+<ip>192.168.1.102</ip>
+<port>8009</port>
+<group>1</group>
+<flag>2</flag>
+<text/>
+</server>
+
+</root>

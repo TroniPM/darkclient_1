@@ -1,0 +1,6 @@
+<root>
+    <VersionFile>E:/Server/version2.xml</VersionFile>
+    <PackageMd5>E:/Server/packagemd5.xml</PackageMd5>  
+    <LocalPackageDir>E:/Server/package/</LocalPackageDir>
+    <LocalApk>E:/Server/Mogo-out.apk</LocalApk>
+</root>

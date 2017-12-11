@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_fist_powerattack_6_2
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 0
+        inSlope: 1.58694339
+        outSlope: 1.58694339
+        tangentMode: 10
+      - time: .300000012
+        value: .211592466
+        inSlope: .590990305
+        outSlope: .590990305
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666657
+        value: 0
+        inSlope: 30.8733006
+        outSlope: 30.8733006
+        tangentMode: 10
+      - time: .183333337
+        value: .514555454
+        inSlope: 1.78292429
+        outSlope: 1.78292429
+        tangentMode: 0
+      - time: .283333331
+        value: .541549146
+        inSlope: -.266265303
+        outSlope: -.266265303
+        tangentMode: 0
+      - time: .566666663
+        value: -.00999999978
+        inSlope: -.136670411
+        outSlope: -8.37673569
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666672
+        value: 0
+        inSlope: 1.58694339
+        outSlope: 1.58694339
+        tangentMode: 10
+      - time: .300000012
+        value: .211592466
+        inSlope: .590990305
+        outSlope: .590990305
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .166666657
+        value: 0
+        inSlope: 30.8733006
+        outSlope: 30.8733006
+        tangentMode: 10
+      - time: .183333337
+        value: .514555454
+        inSlope: 1.78292429
+        outSlope: 1.78292429
+        tangentMode: 0
+      - time: .283333331
+        value: .541549146
+        inSlope: -.266265303
+        outSlope: -.266265303
+        tangentMode: 0
+      - time: .566666663
+        value: -.00999999978
+        inSlope: -.136670411
+        outSlope: -8.37673569
+        tangentMode: 1
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: 
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

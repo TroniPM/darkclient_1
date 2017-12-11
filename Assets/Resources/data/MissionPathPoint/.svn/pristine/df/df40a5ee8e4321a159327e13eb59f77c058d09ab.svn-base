@@ -1,0 +1,68 @@
+<root>
+  <gears>
+    <id>5</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>1</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>28.1, 4.9, 27.6</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>13.2, 13.2, 13.2</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>
+    </deleteList>
+  </gears>
+  <gears>
+    <id>4</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>1</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>45.1, 4.9, 26.4</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>9.1, 9.1, 9.1</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>5</deleteList>
+  </gears>
+  <gears>
+    <id>3</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>1</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>58.8, 8.6, 39.6</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>9.1, 9.1, 9.1</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>4</deleteList>
+  </gears>
+  <gears>
+    <id>2</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>1</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>37.9, 10.8, 56.3</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>9.1, 9.1, 9.1</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>3</deleteList>
+  </gears>
+  <gears>
+    <id>1</id>
+    <preID>0</preID>
+    <type>0</type>
+    <isEnable>0</isEnable>
+    <isPointer>1</isPointer>
+    <range>2.00</range>
+    <position>16.7, 10.8, 66.7</position>
+    <rotation>0.0, 0.0, 0.0</rotation>
+    <size>9.1, 9.1, 9.1</size>
+    <movePosition>0.0, 0.0, 0.0</movePosition>
+    <deleteList>2</deleteList>
+  </gears>
+</root>

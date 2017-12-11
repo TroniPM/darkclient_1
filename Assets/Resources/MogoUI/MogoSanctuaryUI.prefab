@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoSanctuaryUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: e5a00dacbb4bf9c47805b01c5da82861, type: 2}
+  sprites:
+  - name: bj_04beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 786
+      width: 149
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 12
+      y: 795
+      width: 125
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_xuetiao
+    outer:
+      serializedVersion: 2
+      x: 79
+      y: 751
+      width: 40
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 79
+      y: 751
+      width: 40
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_yuanzhubeijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 821
+      width: 294
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 821
+      width: 294
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sl_beijing
+    outer:
+      serializedVersion: 2
+      x: 834
+      y: 914
+      width: 75
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 834
+      y: 914
+      width: 75
+      height: 110
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_daojishi
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 854
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 854
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_02down
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 941
+      width: 245
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 941
+      width: 245
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj_02beijing
+    outer:
+      serializedVersion: 2
+      x: 714
+      y: 911
+      width: 119
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 729
+      y: 926
+      width: 89
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_02up
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 857
+      width: 244
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 857
+      width: 244
+      height: 83
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_bosstubiao
+    outer:
+      serializedVersion: 2
+      x: 633
+      y: 854
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 633
+      y: 854
+      width: 44
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_fubenbeijing
+    outer:
+      serializedVersion: 2
+      x: 910
+      y: 899
+      width: 36
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 910
+      y: 899
+      width: 36
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_xuetiaobeijing
+    outer:
+      serializedVersion: 2
+      x: 39
+      y: 750
+      width: 39
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 39
+      y: 750
+      width: 39
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_daojuge
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 179
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 845
+      width: 179
+      height: 179
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: syfhz_paimingbeijing
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 900
+      width: 39
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 957
+      y: 910
+      width: 19
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj_03beijing
+    outer:
+      serializedVersion: 2
+      x: 714
+      y: 845
+      width: 107
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 722
+      y: 853
+      width: 91
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj_00beijing
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 869
+      width: 50
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 947
+      y: 869
+      width: 50
+      height: 30
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_guanbi_down
+    outer:
+      serializedVersion: 2
+      x: 834
+      y: 846
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 834
+      y: 846
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_guanbi_up
+    outer:
+      serializedVersion: 2
+      x: 947
+      y: 957
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 947
+      y: 957
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_biaodian
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 851
+      width: 11
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 851
+      width: 11
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: DJ_zhuangbei
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 899
+      width: 125
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 899
+      width: 125
+      height: 125
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sanjiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 38
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 38
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sl_guanbaoxiang
+    outer:
+      serializedVersion: 2
+      x: 180
+      y: 863
+      width: 161
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 180
+      y: 863
+      width: 161
+      height: 161
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_fengexian
+    outer:
+      serializedVersion: 2
+      x: 295
+      y: 842
+      width: 582
+      height: 2
+    inner:
+      serializedVersion: 2
+      x: 295
+      y: 842
+      width: 582
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00343642617
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

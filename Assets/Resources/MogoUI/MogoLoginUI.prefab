@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoLoginUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6b12dd1687c80f64fa3f00a7c74a6d9c, type: 2}
+  sprites:
+  - name: zcdl_fuwuqibeijingbeijing
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 443
+      width: 163
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 348
+      y: 453
+      width: 143
+      height: 49
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_shuiji_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 86
+      width: 88
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 86
+      width: 88
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_shuxingzhi01
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 418
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 418
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_shuiji_down
+    outer:
+      serializedVersion: 2
+      x: 133
+      y: 163
+      width: 88
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 133
+      y: 163
+      width: 88
+      height: 96
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_shuxingzhi02
+    outer:
+      serializedVersion: 2
+      x: 363
+      y: 418
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 418
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_jueshexuanzhong
+    outer:
+      serializedVersion: 2
+      x: 388
+      y: 422
+      width: 16
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 388
+      y: 422
+      width: 16
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_shequtubiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 132
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 132
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_zhuangshi
+    outer:
+      serializedVersion: 2
+      x: 89
+      y: 150
+      width: 16
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 89
+      y: 150
+      width: 16
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_fanhui
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 261
+      width: 36
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 261
+      width: 36
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zcdl_xinxibeijing02
+    outer:
+      serializedVersion: 2
+      x: 496
+      y: 355
+      width: 12
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 496
+      y: 355
+      width: 12
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_dangqianyedianshu
+    outer:
+      serializedVersion: 2
+      x: 439
+      y: 267
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 439
+      y: 267
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_yedianshu
+    outer:
+      serializedVersion: 2
+      x: 474
+      y: 267
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 267
+      width: 34
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fwq
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 302
+      width: 95
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 402
+      y: 302
+      width: 95
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_jt_down
+    outer:
+      serializedVersion: 2
+      x: 133
+      y: 118
+      width: 45
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 133
+      y: 118
+      width: 45
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_jryx_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 401
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 401
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_jryx_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 401
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 401
+      height: 75
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_jt_up
+    outer:
+      serializedVersion: 2
+      x: 81
+      y: 41
+      width: 45
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 81
+      y: 41
+      width: 45
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gonggao_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 80
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 6
+      width: 80
+      height: 79
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dl_srk
+    outer:
+      serializedVersion: 2
+      x: 402
+      y: 355
+      width: 66
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 428
+      y: 355
+      width: 14
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jn_jiantou
+    outer:
+      serializedVersion: 2
+      x: 469
+      y: 352
+      width: 26
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 469
+      y: 352
+      width: 26
+      height: 59
+    rotated: 0
+    paddingLeft: .0769230798
+    paddingRight: 0
+    paddingTop: .0169491526
+    paddingBottom: 0
+  - name: zcdl_zhuangs
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 412
+      width: 337
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 412
+      width: 337
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

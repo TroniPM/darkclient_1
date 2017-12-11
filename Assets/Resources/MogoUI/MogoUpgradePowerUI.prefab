@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoUpgradePowerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 1e818bc6b3351e14bb076df9e01bf6e2, type: 2}
+  sprites:
+  - name: zc_gonghui_up
+    outer:
+      serializedVersion: 2
+      x: 109
+      y: 405
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 109
+      y: 405
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_zhuangbei_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 404
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 404
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_xiangqian_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 296
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 296
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zdl_dq
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 247
+      width: 199
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 247
+      width: 199
+      height: 48
+    rotated: 0
+    paddingLeft: .00502512557
+    paddingRight: 0
+    paddingTop: .0625
+    paddingBottom: .020833334
+  - name: zb_dengjitiao
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 353
+      width: 48
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 113
+      y: 353
+      width: 38
+      height: 50
+    rotated: 0
+    paddingLeft: .0833333358
+    paddingRight: .0833333358
+    paddingTop: .100000001
+    paddingBottom: .100000001
+  - name: xing
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 477
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 477
+      width: 35
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0285714287
+    paddingTop: 0
+    paddingBottom: .0285714287
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

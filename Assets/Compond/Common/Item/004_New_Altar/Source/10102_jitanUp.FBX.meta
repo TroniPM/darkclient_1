@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 6f92cc2832b4703429b358f8fbd8a24c
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bone_bk01
+    100004: bone_bk02
+    100006: bone_bk03
+    100008: bone_bk04
+    100010: bone_bk05
+    100012: bone_bk06
+    100014: bone_bk07
+    400000: //RootNode
+    400002: bone_bk01
+    400004: bone_bk02
+    400006: bone_bk03
+    400008: bone_bk04
+    400010: bone_bk05
+    400012: bone_bk06
+    400014: bone_bk07
+    2300000: bone_bk01
+    2300002: bone_bk02
+    2300004: bone_bk03
+    2300006: bone_bk04
+    2300008: bone_bk05
+    2300010: bone_bk06
+    2300012: bone_bk07
+    3300000: bone_bk01
+    3300002: bone_bk02
+    3300004: bone_bk03
+    3300006: bone_bk04
+    3300008: bone_bk05
+    3300010: bone_bk06
+    3300012: bone_bk07
+    4300000: bone_bk03
+    4300002: bone_bk01
+    4300004: bone_bk04
+    4300006: bone_bk02
+    4300008: bone_bk05
+    4300010: bone_bk06
+    4300012: bone_bk07
+    7400000: Take 001
+    7400002: Take 001 //// jt_platform
+    9500000: //RootNode
+    11100000: //RootNode
+    11100002: bone_bk01
+    11100004: bone_bk02
+    11100006: bone_bk03
+    11100008: bone_bk04
+    11100010: bone_bk05
+    11100012: bone_bk06
+    11100014: bone_bk07
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

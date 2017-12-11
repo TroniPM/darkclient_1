@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoOccupyTowerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: b8130367f5125d64faf7def866c3fe68, type: 2}
+  sprites:
+  - name: nsbwz_nsxt
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 226
+      width: 232
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 92
+      y: 226
+      width: 52
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pvp
+    outer:
+      serializedVersion: 2
+      x: 101
+      y: 105
+      width: 88
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 101
+      y: 105
+      width: 88
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gradeicon01
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 105
+      width: 100
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 105
+      width: 100
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tongyong_butten_down
+    outer:
+      serializedVersion: 2
+      x: 101
+      y: 26
+      width: 106
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 101
+      y: 26
+      width: 106
+      height: 78
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm-shengmingtiaolanse
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 100
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 24
+      width: 100
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm-shengmingtiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 100
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3
+      width: 100
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_zhandoushengli (2)
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 452
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 452
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdsl
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 291
+      width: 460
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 291
+      width: 460
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-xt-lanq
+    outer:
+      serializedVersion: 2
+      x: 491
+      y: 492
+      width: 4
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 491
+      y: 492
+      width: 4
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-xt-hongq
+    outer:
+      serializedVersion: 2
+      x: 496
+      y: 492
+      width: 4
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 496
+      y: 492
+      width: 4
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_xuetiaobeijing
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 472
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 465
+      y: 472
+      width: 8
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pvp_zs
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 66
+      width: 98
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 66
+      width: 98
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-xt-ziq
+    outer:
+      serializedVersion: 2
+      x: 486
+      y: 492
+      width: 4
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 486
+      y: 492
+      width: 4
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm-shengmingtiaozise
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 45
+      width: 100
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 45
+      width: 100
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

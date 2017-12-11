@@ -1,0 +1,633 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoDragonUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 3db3f3a3324213c44981834eac6faa00, type: 2}
+  sprites:
+  - name: lyfw_anniubeijing
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 235
+      width: 28
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 142
+      y: 240
+      width: 18
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_weikaiqi
+    outer:
+      serializedVersion: 2
+      x: 788
+      y: 212
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 788
+      y: 212
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_fuwengehei
+    outer:
+      serializedVersion: 2
+      x: 166
+      y: 303
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 305
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_texiao
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 312
+      width: 200
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 312
+      width: 200
+      height: 200
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_milingbeijing
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 195
+      width: 70
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 757
+      y: 235
+      width: -10
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune03
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune05
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 255
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 255
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune11
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 126
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 126
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune12
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune01
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 255
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 255
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune07
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 126
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 126
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune02
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune06
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 255
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 255
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune08
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 126
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 126
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune04
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_fuwengebai
+    outer:
+      serializedVersion: 2
+      x: 175
+      y: 303
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 177
+      y: 305
+      width: 4
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_yijianshiqu_down
+    outer:
+      serializedVersion: 2
+      x: 459
+      y: 35
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 459
+      y: 35
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: lyfw_yijianhecheng_up
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 35
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 35
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: lyfw_qianwangfuwen_down
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 293
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 293
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: lyfw_yijianhecheng_down
+    outer:
+      serializedVersion: 2
+      x: 808
+      y: 293
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 293
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: lyfw_yijianshiqu_up
+    outer:
+      serializedVersion: 2
+      x: 899
+      y: 293
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 293
+      width: 90
+      height: 90
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: .0111111114
+    paddingBottom: .0111111114
+  - name: lyfw_qianwangfuwen_up
+    outer:
+      serializedVersion: 2
+      x: 330
+      y: 33
+      width: 90
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 330
+      y: 33
+      width: 90
+      height: 92
+    rotated: 0
+    paddingLeft: .0111111114
+    paddingRight: .0111111114
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfuwen_gezi
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 307
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 185
+      y: 308
+      width: 2
+      height: 2
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_jinengbeijing_down
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 1
+      width: 124
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 1
+      width: 124
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ly_fuwenbeibaofengxian
+    outer:
+      serializedVersion: 2
+      x: 162
+      y: 30
+      width: 8
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 162
+      y: 30
+      width: 8
+      height: 144
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ly_fuwenbeibao
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 30
+      width: 24
+      height: 144
+    inner:
+      serializedVersion: 2
+      x: 147
+      y: 40
+      width: 4
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ly_fuwendi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 175
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune13
+    outer:
+      serializedVersion: 2
+      x: 717
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 717
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune14
+    outer:
+      serializedVersion: 2
+      x: 846
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune16
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 255
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 255
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: rune15
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 126
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 126
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ly_fuwenjsdi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 38
+      width: 136
+      height: 136
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 38
+      width: 136
+      height: 136
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

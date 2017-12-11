@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skill_103_xuanren01
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .766666651
+        value: 0
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      - time: 1.31666648
+        value: 1
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbx_skill_103_gun_skill_1_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .766666651
+        value: 0
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      - time: 1.31666648
+        value: 1
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbx_skill_103_gun_skill_1_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: 0
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      - time: 1.33333313
+        value: 1
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: 0
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      - time: 1.33333313
+        value: 1
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .951493144
+        outSlope: .951493144
+        tangentMode: 10
+      - time: .966666639
+        value: .447761178
+        inSlope: 2.0429101
+        outSlope: 2.0429101
+        tangentMode: 10
+      - time: 1.10000002
+        value: .865671635
+        inSlope: 1.09141743
+        outSlope: 1.09141743
+        tangentMode: 10
+      - time: 1.23333335
+        value: .738806009
+        inSlope: -.95149225
+        outSlope: -.95149225
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .124471098
+        outSlope: .124471098
+        tangentMode: 10
+      - time: .966666639
+        value: .337491632
+        inSlope: .492453754
+        outSlope: .492453754
+        tangentMode: 10
+      - time: 1.10000002
+        value: .452216536
+        inSlope: -.314518929
+        outSlope: -.314518929
+        tangentMode: 10
+      - time: 1.23333335
+        value: .253619969
+        inSlope: -1.4894743
+        outSlope: -1.4894743
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .124471098
+        outSlope: .124471098
+        tangentMode: 10
+      - time: .966666639
+        value: .337491632
+        inSlope: .492453754
+        outSlope: .492453754
+        tangentMode: 10
+      - time: 1.10000002
+        value: .452216536
+        inSlope: -.314518929
+        outSlope: -.314518929
+        tangentMode: 10
+      - time: 1.23333335
+        value: .253619969
+        inSlope: -1.4894743
+        outSlope: -1.4894743
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .766666651
+        value: 0
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      - time: 1.31666648
+        value: 1
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbx_skill_103_gun_skill_1_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .766666651
+        value: 0
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      - time: 1.31666648
+        value: 1
+        inSlope: 1.81818235
+        outSlope: 1.81818235
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbx_skill_103_gun_skill_1_01
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: 0
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      - time: 1.33333313
+        value: 1
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex_ST.b
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: 0
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      - time: 1.33333313
+        value: 1
+        inSlope: 2.00000095
+        outSlope: 2.00000095
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _MainTex.offset.x
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .951493144
+        outSlope: .951493144
+        tangentMode: 10
+      - time: .966666639
+        value: .447761178
+        inSlope: 2.0429101
+        outSlope: 2.0429101
+        tangentMode: 10
+      - time: 1.10000002
+        value: .865671635
+        inSlope: 1.09141743
+        outSlope: 1.09141743
+        tangentMode: 10
+      - time: 1.23333335
+        value: .738806009
+        inSlope: -.95149225
+        outSlope: -.95149225
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .124471098
+        outSlope: .124471098
+        tangentMode: 10
+      - time: .966666639
+        value: .337491632
+        inSlope: .492453754
+        outSlope: .492453754
+        tangentMode: 10
+      - time: 1.10000002
+        value: .452216536
+        inSlope: -.314518929
+        outSlope: -.314518929
+        tangentMode: 10
+      - time: 1.23333335
+        value: .253619969
+        inSlope: -1.4894743
+        outSlope: -1.4894743
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .833333373
+        value: .320895493
+        inSlope: .124471098
+        outSlope: .124471098
+        tangentMode: 10
+      - time: .966666639
+        value: .337491632
+        inSlope: .492453754
+        outSlope: .492453754
+        tangentMode: 10
+      - time: 1.10000002
+        value: .452216536
+        inSlope: -.314518929
+        outSlope: -.314518929
+        tangentMode: 10
+      - time: 1.23333335
+        value: .253619969
+        inSlope: -1.4894743
+        outSlope: -1.4894743
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fx_fbx_skill_103_gun_skill_1_02
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

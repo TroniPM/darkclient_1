@@ -1,0 +1,285 @@
+<root>
+  <r>
+    <name>scene</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+ <r>
+    <name>scene_10104_Relic</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10104_Relic</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10105_Relic</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10105_Relic</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10106_Beast</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10106_Beast</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10107_Maze</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10107_Maze</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10108_Maze</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10108_Maze</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10109_Minos</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10109_Minos</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10201_Eastern</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10201_Eastern</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10202_Eastern</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10202_Eastern</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10203_Ogre</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10203_Ogre</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10204_BurialGrounds</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10204_BurialGrounds</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10205_BurialGrounds</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10205_BurialGrounds</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10206_EarthLord</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10206_EarthLord</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10207_Salonica</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10207_Salonica</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10208_Salonica</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10208_Salonica</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10209_Dryad</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10209_Dryad</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>scene_10301_Olympus</name>
+    <type>scene</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab .exr</extention>
+    <folders>
+      <r>
+        <path>Resources/Scences/10301_Olympus</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+
+  <r>
+    <name>npc</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/NPC</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  <r>
+    <name>item</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/Characters/Item</path>
+        <deep>false</deep>
+      </r>
+    </folders>
+  </r>
+  
+</root>

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 20697441a1513ee4ea9c0418b9ad759e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: bone_Object001
+    100004: bone_Object002
+    100006: bone_Object003
+    100008: bone_Object004
+    100010: bone_Object005
+    100012: bone_plane
+    100014: gemstone
+    100016: Guard tower
+    100018: //RootNode
+    100020: slot_billboard
+    100022: bone_Object012
+    100024: bone_Object013
+    100026: bone_Object014
+    100028: bone_Object015
+    100030: bone_Object016
+    100032: bone_Object017
+    100034: bone_Object018
+    100036: bone_Object019
+    100038: bone_Object020
+    100040: bone_Object021
+    100042: bone_Object022
+    100044: bone_Plane001
+    100046: Slot_billboard
+    400000: Bone001
+    400002: bone_Object001
+    400004: bone_Object002
+    400006: bone_Object003
+    400008: bone_Object004
+    400010: bone_Object005
+    400012: bone_plane
+    400014: gemstone
+    400016: Guard tower
+    400018: //RootNode
+    400020: slot_billboard
+    400022: bone_Object012
+    400024: bone_Object013
+    400026: bone_Object014
+    400028: bone_Object015
+    400030: bone_Object016
+    400032: bone_Object017
+    400034: bone_Object018
+    400036: bone_Object019
+    400038: bone_Object020
+    400040: bone_Object021
+    400042: bone_Object022
+    400044: bone_Plane001
+    400046: Slot_billboard
+    2300000: Slot_billboard
+    3300000: Slot_billboard
+    4300000: Guard tower
+    4300002: gemstone
+    4300004: Slot_billboard
+    7400000: guardtower_idle
+    7400002: guardtower_die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gemstone
+    13700002: Guard tower
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: guardtower_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: guardtower_die
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 140
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bone_Plane001
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

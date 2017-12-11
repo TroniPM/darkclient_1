@@ -1,0 +1,1118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoInstanceUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: b9a0c4d22852f5d4b81438d7dd1ca50d, type: 2}
+  sprites:
+  - name: fb_aixin
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 17
+      width: 76
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 17
+      width: 76
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_dibiao
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 554
+      width: 40
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 554
+      width: 40
+      height: 66
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_dibian
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 371
+      width: 456
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 371
+      width: 456
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_jianglibeijing
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 388
+      width: 204
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 388
+      width: 204
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jn_jiantou
+    outer:
+      serializedVersion: 2
+      x: 233
+      y: 407
+      width: 28
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 233
+      y: 407
+      width: 28
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_weikaiqi
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 777
+      width: 184
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 777
+      width: 184
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_guankai_up
+    outer:
+      serializedVersion: 2
+      x: 839
+      y: 827
+      width: 184
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 839
+      y: 827
+      width: 184
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_guankai_down
+    outer:
+      serializedVersion: 2
+      x: 839
+      y: 871
+      width: 184
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 839
+      y: 871
+      width: 184
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_diejieshensebeijing
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 248
+      width: 18
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 216
+      y: 256
+      width: 2
+      height: 3
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_diejiabeijing
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 366
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 376
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_xs
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 86
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 86
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_brm
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 425
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 425
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_qt
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 312
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 312
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sb
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 199
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 199
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mg
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 199
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 199
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mhdz2
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 86
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 86
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_ld
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 425
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 425
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_stq
+    outer:
+      serializedVersion: 2
+      x: 666
+      y: 425
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 666
+      y: 425
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sfks
+    outer:
+      serializedVersion: 2
+      x: 775
+      y: 425
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 775
+      y: 425
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mhdz
+    outer:
+      serializedVersion: 2
+      x: 884
+      y: 425
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 884
+      y: 425
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_duwzd
+    outer:
+      serializedVersion: 2
+      x: 714
+      y: 582
+      width: 140
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 714
+      y: 592
+      width: 140
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_suo
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 268
+      width: 28
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 208
+      y: 268
+      width: 28
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0181818176
+    paddingBottom: 0
+  - name: fb_wkq
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 538
+      width: 248
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 273
+      y: 548
+      width: 228
+      height: 80
+    rotated: 0
+    paddingLeft: .00403225794
+    paddingRight: .0120967738
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_huisuo
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 276
+      width: 24
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 276
+      width: 24
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_wzbj
+    outer:
+      serializedVersion: 2
+      x: 762
+      y: 404
+      width: 250
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 862
+      y: 404
+      width: 50
+      height: 20
+    rotated: 0
+    paddingLeft: .00400000019
+    paddingRight: .00400000019
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_b
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 249
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 249
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_a
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 310
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 310
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_c
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 760
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 760
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_s
+    outer:
+      serializedVersion: 2
+      x: 557
+      y: 188
+      width: 60
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 557
+      y: 188
+      width: 60
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_fzd_down
+    outer:
+      serializedVersion: 2
+      x: 938
+      y: 558
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 938
+      y: 558
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_qbk
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 425
+      width: 184
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 425
+      width: 184
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_biankuang
+    outer:
+      serializedVersion: 2
+      x: 855
+      y: 556
+      width: 82
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 880
+      y: 581
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: .0121951215
+    paddingRight: .0121951215
+    paddingTop: .024390243
+    paddingBottom: .048780486
+  - name: ty_tip
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 324
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 334
+      width: 20
+      height: 20
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tz_bt
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 395
+      width: 24
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 213
+      y: 400
+      width: 14
+      height: 62
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cd
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 370
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 370
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang01_close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 552
+      width: 216
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 552
+      width: 216
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_di
+    outer:
+      serializedVersion: 2
+      x: 217
+      y: 621
+      width: 43
+      height: 138
+    inner:
+      serializedVersion: 2
+      x: 232
+      y: 641
+      width: 13
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0232558139
+    paddingTop: .00724637695
+    paddingBottom: .00724637695
+  - name: sj_di_xuanzhong
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 468
+      width: 42
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 483
+      width: 12
+      height: 53
+    rotated: 0
+    paddingLeft: .0238095243
+    paddingRight: .0238095243
+    paddingTop: .0120481923
+    paddingBottom: 0
+  - name: x_boss
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 312
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 312
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bt
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 5
+      width: 112
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 50
+      y: 5
+      width: 22
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00892857183
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tg_sj
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 353
+      width: 69
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 353
+      width: 69
+      height: 71
+    rotated: 0
+    paddingLeft: .0289855078
+    paddingRight: .0144927539
+    paddingTop: .0140845068
+    paddingBottom: 0
+  - name: prefect
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 821
+      width: 378
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 821
+      width: 378
+      height: 94
+    rotated: 0
+    paddingLeft: .00264550257
+    paddingRight: .00264550257
+    paddingTop: .0106382975
+    paddingBottom: .0106382975
+  - name: tg_lianji
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 14
+      width: 62
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 14
+      width: 62
+      height: 71
+    rotated: 0
+    paddingLeft: .0322580636
+    paddingRight: .129032254
+    paddingTop: .0140845068
+    paddingBottom: 0
+  - name: tg_defen
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 240
+      width: 69
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 240
+      width: 69
+      height: 71
+    rotated: 0
+    paddingLeft: .0289855078
+    paddingRight: .0144927539
+    paddingTop: .0140845068
+    paddingBottom: 0
+  - name: landi
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 760
+      width: 506
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 760
+      width: 506
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0166666675
+  - name: zdsl
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 916
+      width: 460
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 916
+      width: 460
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: guangxiao
+    outer:
+      serializedVersion: 2
+      x: 642
+      y: 845
+      width: 196
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 674
+      y: 845
+      width: 2
+      height: 70
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sksd_down
+    outer:
+      serializedVersion: 2
+      x: 767
+      y: 659
+      width: 248
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 767
+      y: 659
+      width: 248
+      height: 100
+    rotated: 0
+    paddingLeft: .00403225794
+    paddingRight: .0120967738
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_hddl_down
+    outer:
+      serializedVersion: 2
+      x: 724
+      y: 924
+      width: 248
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 724
+      y: 924
+      width: 248
+      height: 100
+    rotated: 0
+    paddingLeft: .00403225794
+    paddingRight: .0120967738
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_hddl_up
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 639
+      width: 252
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 639
+      width: 252
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sksd_up
+    outer:
+      serializedVersion: 2
+      x: 516
+      y: 639
+      width: 250
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 516
+      y: 639
+      width: 250
+      height: 120
+    rotated: 0
+    paddingLeft: .00400000019
+    paddingRight: .00400000019
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang02_close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 365
+      width: 207
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 365
+      width: 207
+      height: 186
+    rotated: 0
+    paddingLeft: .0241545886
+    paddingRight: .0193236712
+    paddingTop: .102150537
+    paddingBottom: .0107526882
+  - name: baoxiang03hui_close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 207
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 207
+      height: 181
+    rotated: 0
+    paddingLeft: .0241545886
+    paddingRight: .0193236712
+    paddingTop: .104972377
+    paddingBottom: .0386740342
+  - name: fb_kapaiup
+    outer:
+      serializedVersion: 2
+      x: 372
+      y: 131
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 131
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0149253728
+    paddingTop: .0149253728
+    paddingBottom: 0
+  - name: fb_kapaidown
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 18
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 18
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0149253728
+    paddingTop: .0149253728
+    paddingBottom: 0
+  - name: baoxiang01_open
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 760
+      width: 262
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 760
+      width: 262
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0037878789
+    paddingBottom: 0
+  - name: ns
+    outer:
+      serializedVersion: 2
+      x: 512
+      y: 538
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 512
+      y: 538
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: srbs
+    outer:
+      serializedVersion: 2
+      x: 613
+      y: 538
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 613
+      y: 538
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: skxw
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 204
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 30
+      width: 204
+      height: 152
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InitScene.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/TestScene.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/ChooseServer.unity
+  - enabled: 0
+    path: Assets/Resources/Scences/10002_Login2.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/Home.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/InstanceScene.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10003_ChooseCharactor.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10004_City.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10004n_NewCity.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10100_Experience.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10101_Training.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10102_Training.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10103_Centaur.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10104_Relic.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10105_Relic.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10106_Beast.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10107_Maze.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10108_Maze.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10109_Minos.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10201_Eastern.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10202_Eastern.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10203_Ogre.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10204_BurialGrounds.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10205_BurialGrounds.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10206_EarthLord.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10207_Salonica.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10208_Salonica.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10209_Dryad.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10301_Olympus.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10302_Olympus.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10303_Radon.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10304_Ancient.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10305_Ancient.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10306_Griffin.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10307_ColdGate.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10308_ColdGate.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10309_Sissel.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10401_CretaIsland.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10402_CretaIsland.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10403_Shaman.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10404_Styx.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10405_Styx.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10406_Ferryman.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10407_Tower.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10408_Tower.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10409_Cerberus.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10501.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10502.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10503.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10504.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10505.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10506.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10507.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10601.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10602.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10603.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10604.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10605.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10606.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10607.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10608.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10609.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10701.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10702.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10703.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10704.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10705.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/10706.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20001_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20002_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20003_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20004_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20005_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20006_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20007_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20011_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/20012_Trials.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/30001_Boss.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/30002.unity
+  - enabled: 1
+    path: Assets/Resources/Scences/42000.unity

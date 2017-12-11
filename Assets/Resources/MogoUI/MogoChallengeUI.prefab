@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoChallengeUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: cd847d84956064641b2e964056b3ace9, type: 2}
+  sprites:
+  - name: sl_lishizuigaobeijing
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 768
+      width: 64
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 528
+      y: 791
+      width: 34
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sl_lengquezhibeijing
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 718
+      width: 228
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 718
+      width: 228
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0250000004
+  - name: sl_lengquezhi
+    outer:
+      serializedVersion: 2
+      x: 688
+      y: 678
+      width: 226
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 688
+      y: 678
+      width: 226
+      height: 39
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang02_open
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 759
+      width: 262
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 759
+      width: 262
+      height: 265
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang01_close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 216
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 216
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang01_open
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 493
+      width: 262
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 493
+      width: 262
+      height: 265
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang03_close
+    outer:
+      serializedVersion: 2
+      x: 513
+      y: 817
+      width: 216
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 513
+      y: 817
+      width: 216
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang03_open
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 262
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 262
+      height: 265
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang02_close
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 817
+      width: 216
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 817
+      width: 216
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Unfinished
+    outer:
+      serializedVersion: 2
+      x: 480
+      y: 577
+      width: 207
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 577
+      width: 207
+      height: 181
+    rotated: 0
+    paddingLeft: .0241545886
+    paddingRight: .0193236712
+    paddingTop: .104972377
+    paddingBottom: .0386740342
+  - name: AlreadyGetAward
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 759
+      width: 249
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 759
+      width: 249
+      height: 265
+    rotated: 0
+    paddingLeft: .0522088371
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang03hui_close
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 551
+      width: 216
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 551
+      width: 216
+      height: 207
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

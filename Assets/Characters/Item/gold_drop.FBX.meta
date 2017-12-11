@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 639b17cc707db2b4eae3cbb46f1987e4
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: gold_01
+    100002: gold_02
+    100004: gold_03
+    100006: gold_04
+    100008: gold_05
+    100010: gold_06
+    100012: gold_07
+    100014: gold_08
+    100016: gold_09
+    100018: gold_10
+    100020: gold_11
+    100022: gold_12
+    100024: gold_13
+    100026: gold_14
+    100028: gold_15
+    100030: //RootNode
+    400000: gold_01
+    400002: gold_02
+    400004: gold_03
+    400006: gold_04
+    400008: gold_05
+    400010: gold_06
+    400012: gold_07
+    400014: gold_08
+    400016: gold_09
+    400018: gold_10
+    400020: gold_11
+    400022: gold_12
+    400024: gold_13
+    400026: gold_14
+    400028: gold_15
+    400030: //RootNode
+    2300000: gold_01
+    2300002: gold_02
+    2300004: gold_03
+    2300006: gold_04
+    2300008: gold_05
+    2300010: gold_06
+    2300012: gold_07
+    2300014: gold_08
+    2300016: gold_09
+    2300018: gold_10
+    2300020: gold_11
+    2300022: gold_12
+    2300024: gold_13
+    2300026: gold_14
+    2300028: gold_15
+    3300000: gold_01
+    3300002: gold_02
+    3300004: gold_03
+    3300006: gold_04
+    3300008: gold_05
+    3300010: gold_06
+    3300012: gold_07
+    3300014: gold_08
+    3300016: gold_09
+    3300018: gold_10
+    3300020: gold_11
+    3300022: gold_12
+    3300024: gold_13
+    3300026: gold_14
+    3300028: gold_15
+    4300000: gold_01
+    4300002: gold_02
+    4300004: gold_03
+    4300006: gold_04
+    4300008: gold_05
+    4300010: gold_06
+    4300012: gold_07
+    4300014: gold_08
+    4300016: gold_09
+    4300018: gold_10
+    4300020: gold_11
+    4300022: gold_12
+    4300024: gold_13
+    4300026: gold_14
+    4300028: gold_15
+    7400000: drop
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: drop
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

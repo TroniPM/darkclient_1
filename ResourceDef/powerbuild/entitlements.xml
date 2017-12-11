@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>ZQ4U76T936.com.4399.mogo.X</string>
+	<key>get-task-allow</key>
+	<true/>
+	<key>dynamic-codesigning</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>ZQ4U76T936.com.4399.mogo.X</string>
+	</array>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>Install</string>
+		<string>Uninstall</string>
+		<string>Browse</string>
+		<string>Archive</string>
+		<string>RemoveArchive</string>
+	</array>
+</dict>
+</plist>

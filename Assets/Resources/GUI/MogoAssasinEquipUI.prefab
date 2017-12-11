@@ -1,0 +1,1712 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoAssasinEquipUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: dbbb124d6fd63474e829d83a128bf2fc, type: 2}
+  sprites:
+  - name: icon_assassin_legs_04
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_04
+    outer:
+      serializedVersion: 2
+      x: 1834
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1834
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_02
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_03
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_02
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_03
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_01
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1576
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_03
+    outer:
+      serializedVersion: 2
+      x: 1705
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1705
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_04
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_03
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_04
+    outer:
+      serializedVersion: 2
+      x: 1834
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1834
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_02
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_04
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_01
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_04
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_04
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_01
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1576
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_02
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_02
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_01
+    outer:
+      serializedVersion: 2
+      x: 1834
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1834
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_03
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_02
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1576
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_02
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_03
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_01
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_01
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_03
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 356
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 356
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_01
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ring_6
+    outer:
+      serializedVersion: 2
+      x: 1705
+      y: 509
+      width: 93
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1705
+      y: 509
+      width: 93
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bb_daojugeguangzhe
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 872
+      width: 156
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 872
+      width: 156
+      height: 152
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_01
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_10
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_05
+    outer:
+      serializedVersion: 2
+      x: 1447
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1447
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_06
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_07
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_05
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_08
+    outer:
+      serializedVersion: 2
+      x: 1447
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1447
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_04
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_08
+    outer:
+      serializedVersion: 2
+      x: 1576
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1576
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_09
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_05
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_05
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_04
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_05
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_03
+    outer:
+      serializedVersion: 2
+      x: 1447
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1447
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_07
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_06
+    outer:
+      serializedVersion: 2
+      x: 1705
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1705
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_01
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_02
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_03
+    outer:
+      serializedVersion: 2
+      x: 1705
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1705
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_05
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_02
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_09
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_dagger_06
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_05
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_twinblade_10
+    outer:
+      serializedVersion: 2
+      x: 1447
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1447
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_05
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_08
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 743
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 743
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_09
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 614
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 614
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 485
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 485
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_06
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_10
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 98
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 98
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_07
+    outer:
+      serializedVersion: 2
+      x: 157
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 157
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_08
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_07
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_09
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_07
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_08
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_10
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_08
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_06
+    outer:
+      serializedVersion: 2
+      x: 544
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_09
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_10
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_07
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_06
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_07
+    outer:
+      serializedVersion: 2
+      x: 673
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 673
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_hands_09
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_08
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_08
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_06
+    outer:
+      serializedVersion: 2
+      x: 802
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 802
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_head_09
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_06
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_chest_07
+    outer:
+      serializedVersion: 2
+      x: 931
+      y: 380
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 931
+      y: 380
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_10
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 896
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 896
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_shoulder_10
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 767
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 767
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_legs_10
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_09
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_08
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 122
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 122
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_05
+    outer:
+      serializedVersion: 2
+      x: 1318
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1318
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_feet_10
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 638
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 638
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_09
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 509
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 509
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_assassin_waist_07
+    outer:
+      serializedVersion: 2
+      x: 1189
+      y: 251
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 251
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

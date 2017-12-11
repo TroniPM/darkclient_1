@@ -1,0 +1,125 @@
+#!/usr/bin/perl -w
+use IO::Socket; 
+use IO::Select; 
+%ser_info = (
+<<<<<<< .mine
+    "ser_ip" => "172.16.10.42",
+    "ser_port" => "9528",
+=======
+    "ser_ip" => "172.16.10.42",
+    "ser_port" => "9527",
+>>>>>>> .r30544
+);
+&main();
+
+sub main {
+    my $ser_addr = $ser_info{"ser_ip"};
+    my $ser_port = $ser_info{"ser_port"};
+    my $socket = IO::Socket::INET->new(
+                                         PeerAddr => "$ser_addr",
+                                         PeerPort => "$ser_port",
+                                         Type => SOCK_STREAM,
+                                         Proto => "tcp",
+                                       ) 
+       or die "Can not create socket connect.$@";
+    $socket->autoflush(1);
+	my $gettask=pack("CCs",1,0,0);
+	my $packhead;
+	my %tasks=();
+	my %uploaded=();
+	$tasks{"a"}=1;
+	my $buffer;
+	while(1)
+	{
+		$socket->send($gettask."\n",0);
+		$socket->recv($_,1024,0);
+		$packhead=substr($_,0,4);
+		@temp=unpack("CCs",$packhead);
+		if($temp[0] eq "2")
+		{
+			print "sleep\n";
+			my $recvbuffer=substr($_,4,$temp[2]);
+			if($recvbuffer eq "upload your work\n")
+			{
+				if(%tasks && not %uploaded)
+				{
+					system("find ./MogoResourcesOSX -name \"*.*\" > BuiltFiles.txt");
+					open(BF,"<BuiltFiles.txt") or print "cannot open BuiltFiles.txt file\n";
+					while($buffer=<BF>)
+					{
+						$uploaded{$buffer}=1;
+					}
+					close BF;
+					
+					while(my ($k,$v)= each(%uploaded))
+					{
+						print "uploaded file ---> ". $k ;
+						my $current=0;
+						my $filesize=0;
+						open(BF,"<$k") or print "cannot open file $k ";
+						binmode BF;
+						my @st=stat(BF);
+						$filesize=$st[7];
+						my $filename=substr($k,2,length($k)-2);
+						$packhead=pack("CCs",2,1,length($filename));
+						$socket->send($packhead.$filename,0);
+						$socket->recv($_,1024,0);
+						while($current<$filesize)
+						{
+							if($filesize - $current>=1019)
+							{
+								$packhead=pack("CCs",2,2,1020);
+								my $br=read(BF,$buffer,1019,0);
+								if($br!=1019)
+								{
+									print "read buffer is not expected\n";
+								}
+								print "buffer read is $br $current\/$filesize\n";
+								my $ret=$buffer . "\n";
+								$socket->send($packhead . $ret ,0);
+								$socket->flush;
+								$socket->recv($_,1024,0);
+								$current+=1019;
+							}
+							else
+							{
+								$packhead=pack("CCs",2,2,$filesize-$current+1);
+								my $br=read(BF,$buffer,$filesize-$current,0);
+								if($br!=($filesize-$current))
+								{
+									print "read buffer is not expected\n";
+								}
+								print "buffer read is $br $current\/$filesize\n";
+								my $ret=$buffer. "\n";
+								$socket->send($packhead.$ret,0);
+								$socket->recv($_,1024,0);
+								$current=$filesize;
+							}
+						}
+						$packhead=pack("CCs",2,3,0);
+						$socket->send($packhead,0);
+						$socket->recv($_,1024,0);
+					}
+				}
+			}
+			else
+			{
+				chomp($recvbuffer);
+				$tasks{$recvbuffer}=1;
+				my $cmd="/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -executeMethod OSXTools.BuildAssetBundleWithOutMeta " . $recvbuffer ;
+				print "exe cmd -> " . $cmd ."\n";
+				system($cmd);
+			}
+		}
+		else
+		{
+<<<<<<< .mine
+=======
+			my $cmd="/Applications/Unity/Unity.app/Contents/MacOS/Unity -quit -batchmode -executeMethod OSXTools.BuildAssetBundleWithOutMeta " . $_;
+			print "exe cmd -> " . $cmd ."\n";
+			system($cmd);
+>>>>>>> .r30544
+		}
+	}
+    $socket->close() or die "Close Socket failed.$@";
+}

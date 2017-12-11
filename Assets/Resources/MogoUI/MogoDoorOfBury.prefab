@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoDoorOfBury
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 9d321b5784ce69341a40add1ce10a802, type: 2}
+  sprites:
+  - name: ym_jisha
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 423
+      width: 43
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 423
+      width: 43
+      height: 44
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_daojishi
+    outer:
+      serializedVersion: 2
+      x: 179
+      y: 351
+      width: 44
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 179
+      y: 351
+      width: 44
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0232558139
+  - name: ym_shengli
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 419
+      width: 136
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 419
+      width: 136
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0107526882
+    paddingBottom: 0
+  - name: ym_xuetiaobeijing
+    outer:
+      serializedVersion: 2
+      x: 313
+      y: 359
+      width: 39
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 367
+      width: 23
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_xuetiao
+    outer:
+      serializedVersion: 2
+      x: 353
+      y: 361
+      width: 40
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 353
+      y: 361
+      width: 40
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0303030312
+    paddingBottom: 0
+  - name: ym_bosstubiao
+    outer:
+      serializedVersion: 2
+      x: 224
+      y: 351
+      width: 44
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 224
+      y: 351
+      width: 44
+      height: 43
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0232558139
+  - name: ym_shibai
+    outer:
+      serializedVersion: 2
+      x: 137
+      y: 419
+      width: 136
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 137
+      y: 419
+      width: 136
+      height: 93
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0107526882
+    paddingBottom: 0
+  - name: ym_zhuzhen
+    outer:
+      serializedVersion: 2
+      x: 269
+      y: 350
+      width: 43
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 269
+      y: 350
+      width: 43
+      height: 44
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_tishibiaoti
+    outer:
+      serializedVersion: 2
+      x: 120
+      y: 251
+      width: 32
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 251
+      width: 32
+      height: 98
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_yuanzhubeijing
+    outer:
+      serializedVersion: 2
+      x: 179
+      y: 395
+      width: 294
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 179
+      y: 395
+      width: 294
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_tishibeijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 91
+      width: 31
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 8
+      y: 99
+      width: 15
+      height: 242
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_03up
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 444
+      width: 178
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 444
+      width: 178
+      height: 68
+    rotated: 0
+    paddingLeft: .0112359552
+    paddingRight: .0112359552
+    paddingTop: .0441176482
+    paddingBottom: .0147058824
+  - name: btn_03down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 350
+      width: 178
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 350
+      width: 178
+      height: 68
+    rotated: 0
+    paddingLeft: .0112359552
+    paddingRight: .0112359552
+    paddingTop: .0441176482
+    paddingBottom: .0147058824
+  - name: sj_touxiangbeijing
+    outer:
+      serializedVersion: 2
+      x: 32
+      y: 263
+      width: 87
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 32
+      y: 263
+      width: 87
+      height: 86
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0116279069
+  - name: ym_fubenbeijing_up
+    outer:
+      serializedVersion: 2
+      x: 32
+      y: 1
+      width: 35
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 40
+      y: 9
+      width: 19
+      height: 109
+    rotated: 0
+    paddingLeft: .0285714287
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_fubenbeijing_down
+    outer:
+      serializedVersion: 2
+      x: 68
+      y: 1
+      width: 35
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 76
+      y: 9
+      width: 19
+      height: 109
+    rotated: 0
+    paddingLeft: .0285714287
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_guanbi_up
+    outer:
+      serializedVersion: 2
+      x: 32
+      y: 127
+      width: 66
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 32
+      y: 127
+      width: 66
+      height: 67
+    rotated: 0
+    paddingLeft: .0151515156
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_guanbi_down
+    outer:
+      serializedVersion: 2
+      x: 32
+      y: 195
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 32
+      y: 195
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ym_jiangli
+    outer:
+      serializedVersion: 2
+      x: 453
+      y: 468
+      width: 43
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 453
+      y: 468
+      width: 43
+      height: 44
+    rotated: 0
+    paddingLeft: .0232558139
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

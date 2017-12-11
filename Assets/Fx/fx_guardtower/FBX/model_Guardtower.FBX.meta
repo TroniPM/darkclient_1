@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 5cda34e4fca4be142be82fe717a7ca05
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Cylinder001
+    100002: dimian_plan
+    100004: gemstone
+    100006: Group001
+    100008: //RootNode
+    100010: Guard tower
+    100012: guangzhu_Cylinder
+    100014: dunpai_Plane001
+    100016: dunpai_Plane002
+    100018: dunpai_Plane003
+    100020: Bone001
+    100022: bone_Object001
+    100024: bone_Object002
+    100026: bone_Object003
+    100028: bone_Object004
+    100030: bone_Object005
+    100032: bone_plane
+    100034: slot_billboard
+    400000: Cylinder001
+    400002: dimian_plan
+    400004: gemstone
+    400006: Group001
+    400008: //RootNode
+    400010: Guard tower
+    400012: guangzhu_Cylinder
+    400014: dunpai_Plane001
+    400016: dunpai_Plane002
+    400018: dunpai_Plane003
+    400020: Bone001
+    400022: bone_Object001
+    400024: bone_Object002
+    400026: bone_Object003
+    400028: bone_Object004
+    400030: bone_Object005
+    400032: bone_plane
+    400034: slot_billboard
+    2300000: Cylinder001
+    2300002: dimian_plan
+    2300004: gemstone
+    2300006: Guard tower
+    2300008: guangzhu_Cylinder
+    2300010: dunpai_Plane001
+    2300012: dunpai_Plane002
+    2300014: dunpai_Plane003
+    3300000: Cylinder001
+    3300002: dimian_plan
+    3300004: gemstone
+    3300006: Guard tower
+    3300008: guangzhu_Cylinder
+    3300010: dunpai_Plane001
+    3300012: dunpai_Plane002
+    3300014: dunpai_Plane003
+    4300000: dimian_plan
+    4300002: Cylinder001
+    4300004: gemstone
+    4300006: Guard tower
+    4300008: guangzhu_Cylinder
+    4300010: dunpai_Plane001
+    4300012: dunpai_Plane002
+    4300014: dunpai_Plane003
+    7400000: Guardtower_idle
+    7400002: Guardtower_die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: gemstone
+    13700002: Guard tower
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Guardtower_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

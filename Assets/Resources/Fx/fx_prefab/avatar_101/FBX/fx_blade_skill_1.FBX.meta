@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: b64f8f39b5889854d8469f695f9431f6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bip_master
+    100002: //RootNode
+    100004: blade_skill_1_Cylinder
+    100006: blade_skill_1_edge
+    100008: blade_skill_1_groundexpolde
+    100010: blade_skill_1_plane_1
+    100012: blade_skill_1_plane_2
+    100014: model_root
+    400000: Bip_master
+    400002: //RootNode
+    400004: blade_skill_1_Cylinder
+    400006: blade_skill_1_edge
+    400008: blade_skill_1_groundexpolde
+    400010: blade_skill_1_plane_1
+    400012: blade_skill_1_plane_2
+    400014: model_root
+    2300000: blade_skill_1_Cylinder
+    2300002: blade_skill_1_edge
+    2300004: blade_skill_1_groundexpolde
+    2300006: blade_skill_1_plane_1
+    2300008: blade_skill_1_plane_2
+    3300000: blade_skill_1_Cylinder
+    3300002: blade_skill_1_edge
+    3300004: blade_skill_1_groundexpolde
+    3300006: blade_skill_1_plane_1
+    3300008: blade_skill_1_plane_2
+    4300000: blade_skill_1_Cylinder
+    4300002: blade_skill_1_groundexpolde
+    4300004: blade_skill_1_edge
+    4300006: blade_skill_1_plane_1
+    4300008: blade_skill_1_plane_2
+    7400000: 101@blade_skill_1
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: 101@blade_skill_1
+      takeName: 101@blade_skill_1
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

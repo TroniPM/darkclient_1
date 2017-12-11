@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{40047D06-B9EA-40C0-8184-0350D921490F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GameData</RootNamespace>
+    <AssemblyName>GameData</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'UNITY_ANDROID|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Assets\Scripts\libs\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;UNITY_ANDROID_API;ENABLE_CLOTH;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;UNITY_4_1_5;UNITY_4_1;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionSoundData.cs" />
+    <Compile Include="ActivityRewardData.cs" />
+    <Compile Include="ActivityTimeData.cs" />
+    <Compile Include="ArenaCreditReward4ChallengeData.cs" />
+    <Compile Include="ArenaScoreRewardData.cs" />
+    <Compile Include="AvatarLevelData.cs" />
+    <Compile Include="AvatarModelData.cs" />
+    <Compile Include="BodyEnhanceData.cs" />
+    <Compile Include="BossChestData.cs" />
+    <Compile Include="BTData.cs" />
+    <Compile Include="CameraAnimData.cs" />
+    <Compile Include="CGConfigData.cs" />
+    <Compile Include="CharacterInfoData.cs" />
+    <Compile Include="ChatListData.cs" />
+    <Compile Include="ControllerOfWeaponData.cs" />
+    <Compile Include="DailyEventData.cs" />
+    <Compile Include="DragonBaseData.cs" />
+    <Compile Include="DragonEventDescData.cs" />
+    <Compile Include="DragonEventsData.cs" />
+    <Compile Include="DragonStationData.cs" />
+    <Compile Include="DropFXData.cs" />
+    <Compile Include="DropModelData.cs" />
+    <Compile Include="ElfAreaLimitData.cs" />
+    <Compile Include="ElfNodeData.cs" />
+    <Compile Include="ElfSkillData.cs" />
+    <Compile Include="ElfSkillUpgrade.cs" />
+    <Compile Include="EnergyData.cs" />
+    <Compile Include="EquipData.cs" />
+    <Compile Include="EquipFXResData.cs" />
+    <Compile Include="EquipRecommendData.cs" />
+    <Compile Include="EquipSpecialEffectData.cs" />
+    <Compile Include="EventData.cs" />
+    <Compile Include="FoggyAbyssData.cs" />
+    <Compile Include="FriendNoteData.cs" />
+    <Compile Include="FXData.cs" />
+    <Compile Include="GameData.cs" />
+    <Compile Include="GameProcData.cs" />
+    <Compile Include="GearData.cs" />
+    <Compile Include="GlobeData.cs" />
+    <Compile Include="GUIConfigData.cs" />
+    <Compile Include="GuideXMLData.cs" />
+    <Compile Include="GuildDragonData.cs" />
+    <Compile Include="GuildLevelData.cs" />
+    <Compile Include="GuildSkillData.cs" />
+    <Compile Include="HpTypesData.cs" />
+    <Compile Include="InstanceLevelGridPosData.cs" />
+    <Compile Include="LanguageData.cs" />
+    <Compile Include="LevelGiftData.cs" />
+    <Compile Include="LevelGuideData.cs" />
+    <Compile Include="LoginMarketData.cs" />
+    <Compile Include="MapData.cs" />
+    <Compile Include="MapUIMappingData.cs" />
+    <Compile Include="MarketData.cs" />
+    <Compile Include="MissionData.cs" />
+    <Compile Include="MissionEventData.cs" />
+    <Compile Include="MissionRandimRewardData.cs" />
+    <Compile Include="MissionRewardData.cs" />
+    <Compile Include="MogoNotificationData.cs" />
+    <Compile Include="MonsterValueData.cs" />
+    <Compile Include="NPCData.cs" />
+    <Compile Include="OccupyTowerPersonalReward.cs" />
+    <Compile Include="OccupyTowerTeamReward.cs" />
+    <Compile Include="PowerScoreData.cs" />
+    <Compile Include="PowerScoreJewelData.cs" />
+    <Compile Include="PowerScoreStarData.cs" />
+    <Compile Include="PrivilegeData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyEffectData.cs" />
+    <Compile Include="QualityColorData.cs" />
+    <Compile Include="RankData.cs" />
+    <Compile Include="RewardAchievementData.cs" />
+    <Compile Include="RewardLoginData.cs" />
+    <Compile Include="RewardRechargeData.cs" />
+    <Compile Include="RoleData.cs" />
+    <Compile Include="RuneData.cs" />
+    <Compile Include="RunePosiLock.cs" />
+    <Compile Include="ShaderData.cs" />
+    <Compile Include="SkillAction.cs" />
+    <Compile Include="SkillBuffData.cs" />
+    <Compile Include="SkillData.cs" />
+    <Compile Include="SkillIdReflectData.cs" />
+    <Compile Include="SkillState.cs" />
+    <Compile Include="SoundData.cs" />
+    <Compile Include="SpaceData.cs" />
+    <Compile Include="SpawnPointLevelData.cs" />
+    <Compile Include="SpiritLevelData_Mark.cs" />
+    <Compile Include="SpiritLevelData_Skill.cs" />
+    <Compile Include="SpiritMarkData.cs" />
+    <Compile Include="SpiritSkillData.cs" />
+    <Compile Include="SystemRequirementData.cs" />
+    <Compile Include="TaskData.cs" />
+    <Compile Include="TowerData.cs" />
+    <Compile Include="TowerSweepCdClearCostData.cs" />
+    <Compile Include="UIFaceIconData.cs" />
+    <Compile Include="UIFXData.cs" />
+    <Compile Include="UIMapData.cs" />
+    <Compile Include="UpgradeGuideData.cs" />
+    <Compile Include="UpgradePowerData.cs" />
+    <Compile Include="VictorCameraCfgData.cs" />
+    <Compile Include="WingData.cs" />
+    <Compile Include="WingLevelData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LoaderLib\LoaderLib.csproj">
+      <Project>{5e6b6c90-2886-4e8b-b84e-023526d0fb76}</Project>
+      <Name>LoaderLib</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

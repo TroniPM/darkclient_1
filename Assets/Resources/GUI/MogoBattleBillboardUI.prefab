@@ -1,0 +1,1227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoBattleBillboardUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6624a3bd918e4974a898530f108885c9, type: 2}
+  sprites:
+  - name: blue_3
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_9
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_7
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 237
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 237
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_6
+    outer:
+      serializedVersion: 2
+      x: 479
+      y: 415
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 479
+      y: 415
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_2
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 32
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 32
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_1
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 114
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 114
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_5
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 196
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 196
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_4
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 32
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 32
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_9
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 114
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 114
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: critical_guaiwu
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 399
+      width: 236
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 399
+      width: 236
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_3
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 73
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 73
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_8
+    outer:
+      serializedVersion: 2
+      x: 66
+      y: 12
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 66
+      y: 12
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_7
+    outer:
+      serializedVersion: 2
+      x: 355
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 355
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_4
+    outer:
+      serializedVersion: 2
+      x: 234
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 234
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_1
+    outer:
+      serializedVersion: 2
+      x: 388
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 388
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_0
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_6
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 155
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 155
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: critical_juese
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 456
+      width: 236
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 456
+      width: 236
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_5
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 237
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 237
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Crimson_2
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 114
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 114
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hits
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 101
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 306
+      width: 101
+      height: 57
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: miss
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 319
+      width: 120
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 319
+      width: 120
+      height: 44
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_2
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_4
+    outer:
+      serializedVersion: 2
+      x: 289
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 289
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_7
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 196
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 196
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_5
+    outer:
+      serializedVersion: 2
+      x: 454
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 454
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_3
+    outer:
+      serializedVersion: 2
+      x: 322
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 322
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_6
+    outer:
+      serializedVersion: 2
+      x: 66
+      y: 53
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 66
+      y: 53
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_1
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 32
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 32
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_8
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 196
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 196
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: red_9
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 237
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 237
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_0
+    outer:
+      serializedVersion: 2
+      x: 366
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 366
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_5
+    outer:
+      serializedVersion: 2
+      x: 33
+      y: 12
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 33
+      y: 12
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_8
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 114
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 114
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_4
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 196
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 196
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_6
+    outer:
+      serializedVersion: 2
+      x: 256
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 256
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_7
+    outer:
+      serializedVersion: 2
+      x: 399
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 399
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_9
+    outer:
+      serializedVersion: 2
+      x: 300
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_1
+    outer:
+      serializedVersion: 2
+      x: 333
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 333
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_2
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 237
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 237
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yellow_3
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 155
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 155
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hits beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 200
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 200
+      height: 148
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: blue_0
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 32
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 32
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-5
+    outer:
+      serializedVersion: 2
+      x: 438
+      y: 403
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 438
+      y: 403
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-1
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 94
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 94
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 200
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-7
+    outer:
+      serializedVersion: 2
+      x: 41
+      y: 200
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 200
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-3
+    outer:
+      serializedVersion: 2
+      x: 41
+      y: 94
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 94
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-9
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 253
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 253
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-0
+    outer:
+      serializedVersion: 2
+      x: 41
+      y: 147
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 147
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-2
+    outer:
+      serializedVersion: 2
+      x: 41
+      y: 253
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 253
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: bj-8
+    outer:
+      serializedVersion: 2
+      x: 438
+      y: 460
+      width: 40
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 438
+      y: 460
+      width: 40
+      height: 52
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_9
+    outer:
+      serializedVersion: 2
+      x: 223
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_6
+    outer:
+      serializedVersion: 2
+      x: 168
+      y: 155
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 168
+      y: 155
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_5
+    outer:
+      serializedVersion: 2
+      x: 33
+      y: 53
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 33
+      y: 53
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_7
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 73
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 73
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_1
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 73
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 73
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_8
+    outer:
+      serializedVersion: 2
+      x: 479
+      y: 472
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 479
+      y: 472
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_4
+    outer:
+      serializedVersion: 2
+      x: 267
+      y: 278
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 267
+      y: 278
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_2
+    outer:
+      serializedVersion: 2
+      x: 421
+      y: 323
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 421
+      y: 323
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_3
+    outer:
+      serializedVersion: 2
+      x: 135
+      y: 155
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 135
+      y: 155
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zi_0
+    outer:
+      serializedVersion: 2
+      x: 201
+      y: 73
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 201
+      y: 73
+      width: 32
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

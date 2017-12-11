@@ -1,0 +1,2378 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoNormalMainUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: c9d60960684b1a1418c70fe28da1359b, type: 2}
+  sprites:
+  - name: zc_jingling_down
+    outer:
+      serializedVersion: 2
+      x: 118
+      y: 280
+      width: 72
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 118
+      y: 280
+      width: 72
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_caozuogan
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 695
+      width: 204
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 695
+      width: 204
+      height: 204
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_longyu_up
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 387
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 387
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_shangcheng_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 542
+      width: 154
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 542
+      width: 154
+      height: 152
+    rotated: 0
+    paddingLeft: .012987013
+    paddingRight: .0259740259
+    paddingTop: .0263157897
+    paddingBottom: .0263157897
+  - name: zdjm_caozuoganxin
+    outer:
+      serializedVersion: 2
+      x: 118
+      y: 72
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 118
+      y: 72
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_renwuzhuizong_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 389
+      width: 152
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 389
+      width: 152
+      height: 152
+    rotated: 0
+    paddingLeft: .032894738
+    paddingRight: .0197368413
+    paddingTop: .0263157897
+    paddingBottom: .0263157897
+  - name: zc_fuben_up
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 608
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 608
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_huodong_up
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 279
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 279
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_jingji_up
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 171
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 171
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_tiaozhan_up
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 63
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 63
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_zhuangbei_up
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 387
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 387
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zc_jingling_up
+    outer:
+      serializedVersion: 2
+      x: 118
+      y: 162
+      width: 72
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 118
+      y: 162
+      width: 72
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_dengjibeijing
+    outer:
+      serializedVersion: 2
+      x: 933
+      y: 843
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 933
+      y: 843
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cike
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 35
+      width: 117
+      height: 117
+    rotated: 0
+    paddingLeft: .025641026
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .025641026
+  - name: fashi
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 153
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 153
+      width: 117
+      height: 117
+    rotated: 0
+    paddingLeft: .025641026
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .025641026
+  - name: gongjianshou
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 271
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 271
+      width: 117
+      height: 117
+    rotated: 0
+    paddingLeft: .025641026
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .025641026
+  - name: zhanshi
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 717
+      width: 117
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 717
+      width: 117
+      height: 117
+    rotated: 0
+    paddingLeft: .0170940179
+    paddingRight: .00854700897
+    paddingTop: .00854700897
+    paddingBottom: .0170940179
+  - name: zdjm_shengming
+    outer:
+      serializedVersion: 2
+      x: 356
+      y: 901
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 356
+      y: 901
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_tili
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 901
+      width: 12
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 901
+      width: 12
+      height: 12
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_BOSSbiaoshi
+    outer:
+      serializedVersion: 2
+      x: 968
+      y: 548
+      width: 55
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 968
+      y: 548
+      width: 55
+      height: 55
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_shengmingtiaolanse
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 900
+      width: 100
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 900
+      width: 100
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_shengmingtiao
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 843
+      width: 100
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 843
+      width: 100
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_shengmingtiaolvse
+    outer:
+      serializedVersion: 2
+      x: 676
+      y: 843
+      width: 100
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 676
+      y: 843
+      width: 100
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_shengmingtiaohuangse
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 318
+      width: 100
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 318
+      width: 100
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_shengmingtiaozise
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 298
+      width: 100
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 298
+      width: 100
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_xuetiaobeijing
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 464
+      width: 32
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 165
+      y: 464
+      width: 8
+      height: 40
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_duiyuanbeijing
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 505
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 518
+      width: 10
+      height: 10
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_xianshikuang
+    outer:
+      serializedVersion: 2
+      x: 963
+      y: 426
+      width: 56
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 978
+      y: 441
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_5
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 43
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 43
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_7
+    outer:
+      serializedVersion: 2
+      x: 100
+      y: 6
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 100
+      y: 6
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_2
+    outer:
+      serializedVersion: 2
+      x: 188
+      y: 392
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 188
+      y: 392
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_6
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 476
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 476
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_9
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 637
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 637
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_4
+    outer:
+      serializedVersion: 2
+      x: 182
+      y: 666
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 182
+      y: 666
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_8
+    outer:
+      serializedVersion: 2
+      x: 1007
+      y: 967
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1007
+      y: 967
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_0
+    outer:
+      serializedVersion: 2
+      x: 1007
+      y: 996
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1007
+      y: 996
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_1
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 806
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 806
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip_3
+    outer:
+      serializedVersion: 2
+      x: 183
+      y: 14
+      width: 16
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 183
+      y: 14
+      width: 16
+      height: 28
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xueping
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 298
+      width: 100
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 298
+      width: 100
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_baise
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 783
+      width: 18
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 783
+      width: 18
+      height: 22
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sj_tishi
+    outer:
+      serializedVersion: 2
+      x: 118
+      y: 7
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 118
+      y: 7
+      width: 64
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_jinengcd
+    outer:
+      serializedVersion: 2
+      x: 821
+      y: 902
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 821
+      y: 902
+      width: 17
+      height: 17
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_xuetiaobeijing02
+    outer:
+      serializedVersion: 2
+      x: 972
+      y: 900
+      width: 28
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 977
+      y: 905
+      width: 18
+      height: 14
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-xt-hongq
+    outer:
+      serializedVersion: 2
+      x: 1019
+      y: 944
+      width: 4
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 1019
+      y: 944
+      width: 4
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zdjm_fengedian
+    outer:
+      serializedVersion: 2
+      x: 369
+      y: 905
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 369
+      y: 905
+      width: 8
+      height: 8
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd_tg_up
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 101
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 101
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd_qxtg_up
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 158
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 158
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_fzd_down
+    outer:
+      serializedVersion: 2
+      x: 927
+      y: 636
+      width: 80
+      height: 80
+    inner:
+      serializedVersion: 2
+      x: 927
+      y: 636
+      width: 80
+      height: 80
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_xuetiaozs
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 903
+      width: 21
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 903
+      width: 21
+      height: 16
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_shoucongjiangli_up
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 279
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 279
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: zd_duihua_up
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 14
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 14
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-+up
+    outer:
+      serializedVersion: 2
+      x: 155
+      y: 598
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 155
+      y: 598
+      width: 36
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd-+down
+    outer:
+      serializedVersion: 2
+      x: 155
+      y: 561
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 155
+      y: 561
+      width: 36
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gwsjzy
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 865
+      width: 33
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 865
+      width: 33
+      height: 34
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150001
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150003
+    outer:
+      serializedVersion: 2
+      x: 532
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150004
+    outer:
+      serializedVersion: 2
+      x: 600
+      y: 608
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 600
+      y: 608
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150002
+    outer:
+      serializedVersion: 2
+      x: 709
+      y: 608
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 709
+      y: 608
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150005
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sfks
+    outer:
+      serializedVersion: 2
+      x: 565
+      y: 722
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 565
+      y: 722
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mhdz
+    outer:
+      serializedVersion: 2
+      x: 674
+      y: 722
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 674
+      y: 722
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_xs
+    outer:
+      serializedVersion: 2
+      x: 892
+      y: 722
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 892
+      y: 722
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_stq
+    outer:
+      serializedVersion: 2
+      x: 783
+      y: 722
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 783
+      y: 722
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_ld
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 378
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 378
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mg
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 604
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 604
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_sb
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 39
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 39
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_mhdz2
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 152
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 152
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_qt
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 265
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 265
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_brm
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 604
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 604
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_mrrw_up
+    outer:
+      serializedVersion: 2
+      x: 747
+      y: 387
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 747
+      y: 387
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: sj_shuliangtishi
+    outer:
+      serializedVersion: 2
+      x: 708
+      y: 222
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 708
+      y: 222
+      width: 54
+      height: 54
+    rotated: 0
+    paddingLeft: .111111112
+    paddingRight: .0740740746
+    paddingTop: .111111112
+    paddingBottom: .0740740746
+  - name: x_boss
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 491
+      width: 108
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 491
+      width: 108
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zd_duihua_down
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 44
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 44
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: boss_xiao
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 914
+      width: 354
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 463
+      y: 914
+      width: 54
+      height: 110
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: boss_da
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 900
+      width: 342
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 120
+      y: 900
+      width: 22
+      height: 124
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 150006
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 387
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 387
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0093457941
+    paddingTop: 0
+    paddingBottom: .0093457941
+  - name: zd-xt-ziq
+    outer:
+      serializedVersion: 2
+      x: 197
+      y: 615
+      width: 4
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 197
+      y: 615
+      width: 4
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zd-xt-lvq
+    outer:
+      serializedVersion: 2
+      x: 192
+      y: 615
+      width: 4
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 192
+      y: 615
+      width: 4
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zd-xt-lanq
+    outer:
+      serializedVersion: 2
+      x: 199
+      y: 646
+      width: 4
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 199
+      y: 646
+      width: 4
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: zd-xt-huangq
+    outer:
+      serializedVersion: 2
+      x: 199
+      y: 675
+      width: 4
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 199
+      y: 675
+      width: 4
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0526315793
+  - name: tx_zs
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 215
+      width: 68
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 215
+      width: 68
+      height: 82
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0121951215
+    paddingBottom: .0121951215
+  - name: xueping_yy
+    outer:
+      serializedVersion: 2
+      x: 740
+      y: 298
+      width: 100
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 740
+      y: 298
+      width: 100
+      height: 88
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: cd
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 902
+      width: 22
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 902
+      width: 22
+      height: 22
+    rotated: 0
+    paddingLeft: .0454545468
+    paddingRight: .0454545468
+    paddingTop: .0454545468
+    paddingBottom: .0454545468
+  - name: jz
+    outer:
+      serializedVersion: 2
+      x: 942
+      y: 305
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 942
+      y: 305
+      width: 32
+      height: 32
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zb_wh_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 2
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 2
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zb_wh_down
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 6
+      width: 56
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 6
+      width: 56
+      height: 56
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_wzbj
+    outer:
+      serializedVersion: 2
+      x: 708
+      y: 277
+      width: 250
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 808
+      y: 277
+      width: 50
+      height: 20
+    rotated: 0
+    paddingLeft: .00400000019
+    paddingRight: .00400000019
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_jianglibeijing
+    outer:
+      serializedVersion: 2
+      x: 575
+      y: 863
+      width: 204
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 575
+      y: 863
+      width: 204
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: 1
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 421
+      width: 23
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 421
+      width: 23
+      height: 42
+    rotated: 0
+    paddingLeft: .130434781
+    paddingRight: .260869563
+    paddingTop: .0714285746
+    paddingBottom: .0714285746
+  - name: 4
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 421
+      width: 27
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 421
+      width: 27
+      height: 42
+    rotated: 0
+    paddingLeft: .0740740746
+    paddingRight: .111111112
+    paddingTop: .0714285746
+    paddingBottom: .0714285746
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 27
+      width: 25
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 27
+      width: 25
+      height: 43
+    rotated: 0
+    paddingLeft: .0799999982
+    paddingRight: .200000003
+    paddingTop: .0465116277
+    paddingBottom: .0697674453
+  - name: 2
+    outer:
+      serializedVersion: 2
+      x: 639
+      y: 1
+      width: 25
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 639
+      y: 1
+      width: 25
+      height: 42
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .0714285746
+    paddingBottom: .0714285746
+  - name: vipzhuangshi
+    outer:
+      serializedVersion: 2
+      x: 282
+      y: 7
+      width: 28
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 282
+      y: 7
+      width: 28
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0322580636
+    paddingBottom: 0
+  - name: 7
+    outer:
+      serializedVersion: 2
+      x: 665
+      y: 2
+      width: 25
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 665
+      y: 2
+      width: 25
+      height: 41
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .073170729
+    paddingBottom: .097560972
+  - name: 5
+    outer:
+      serializedVersion: 2
+      x: 993
+      y: 344
+      width: 25
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 993
+      y: 344
+      width: 25
+      height: 42
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .0714285746
+    paddingBottom: .0714285746
+  - name: 8
+    outer:
+      serializedVersion: 2
+      x: 968
+      y: 504
+      width: 25
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 968
+      y: 504
+      width: 25
+      height: 43
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .0465116277
+    paddingBottom: .0697674453
+  - name: 6
+    outer:
+      serializedVersion: 2
+      x: 994
+      y: 504
+      width: 25
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 994
+      y: 504
+      width: 25
+      height: 43
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .0465116277
+    paddingBottom: .0697674453
+  - name: 9
+    outer:
+      serializedVersion: 2
+      x: 480
+      y: 19
+      width: 25
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 480
+      y: 19
+      width: 25
+      height: 43
+    rotated: 0
+    paddingLeft: .119999997
+    paddingRight: .159999996
+    paddingTop: .0465116277
+    paddingBottom: .0697674453
+  - name: 0
+    outer:
+      serializedVersion: 2
+      x: 569
+      y: 604
+      width: 26
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 569
+      y: 604
+      width: 26
+      height: 43
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .115384616
+    paddingTop: .0465116277
+    paddingBottom: .0697674453
+  - name: vip
+    outer:
+      serializedVersion: 2
+      x: 438
+      y: 835
+      width: 136
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 438
+      y: 835
+      width: 136
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: jn_jiantou
+    outer:
+      serializedVersion: 2
+      x: 155
+      y: 635
+      width: 26
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 155
+      y: 635
+      width: 26
+      height: 59
+    rotated: 0
+    paddingLeft: .0769230798
+    paddingRight: 0
+    paddingTop: .0169491526
+    paddingBottom: 0
+  - name: xzxg
+    outer:
+      serializedVersion: 2
+      x: 323
+      y: 724
+      width: 124
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 323
+      y: 724
+      width: 124
+      height: 110
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: exp
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 3
+      width: 76
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 205
+      y: 3
+      width: 76
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0285714287
+  - name: c
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 390
+      width: 34
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 390
+      width: 34
+      height: 30
+    rotated: 0
+    paddingLeft: .0294117648
+    paddingRight: .0294117648
+    paddingTop: .0333333351
+    paddingBottom: .0333333351
+  - name: tx_zszxx
+    outer:
+      serializedVersion: 2
+      x: 990
+      y: 837
+      width: 28
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 990
+      y: 837
+      width: 28
+      height: 27
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0370370373
+  - name: tx_zsz
+    outer:
+      serializedVersion: 2
+      x: 972
+      y: 925
+      width: 46
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 972
+      y: 925
+      width: 46
+      height: 38
+    rotated: 0
+    paddingLeft: .0217391308
+    paddingRight: .0217391308
+    paddingTop: .0263157897
+    paddingBottom: .0263157897
+  - name: tx_zszx
+    outer:
+      serializedVersion: 2
+      x: 972
+      y: 964
+      width: 34
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 972
+      y: 964
+      width: 34
+      height: 60
+    rotated: 0
+    paddingLeft: .0294117648
+    paddingRight: .0294117648
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_nuqi
+    outer:
+      serializedVersion: 2
+      x: 843
+      y: 912
+      width: 128
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 843
+      y: 912
+      width: 128
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdjm_nuqid
+    outer:
+      serializedVersion: 2
+      x: 698
+      y: 920
+      width: 144
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 698
+      y: 920
+      width: 144
+      height: 104
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdl
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 851
+      width: 152
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 851
+      width: 152
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_tiejiang_up
+    outer:
+      serializedVersion: 2
+      x: 750
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 750
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zdl_down
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 338
+      width: 151
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 338
+      width: 151
+      height: 48
+    rotated: 0
+    paddingLeft: .00662251655
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_lj_up
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: szk
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 23
+      width: 32
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 35
+      width: 8
+      height: 11
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0285714287
+  - name: vip_down
+    outer:
+      serializedVersion: 2
+      x: 496
+      y: 614
+      width: 72
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 506
+      y: 624
+      width: 52
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0606060624
+    paddingBottom: .0303030312
+  - name: vip_up
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 614
+      width: 72
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 433
+      y: 624
+      width: 52
+      height: 13
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0606060624
+    paddingBottom: .0303030312
+  - name: zc_xiangqian_up
+    outer:
+      serializedVersion: 2
+      x: 855
+      y: 387
+      width: 107
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 855
+      y: 387
+      width: 107
+      height: 107
+    rotated: 0
+    paddingLeft: .0093457941
+    paddingRight: 0
+    paddingTop: .0093457941
+    paddingBottom: 0
+  - name: ts
+    outer:
+      serializedVersion: 2
+      x: 448
+      y: 722
+      width: 116
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 448
+      y: 722
+      width: 116
+      height: 112
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_zhandouli
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 99
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 99
+      height: 33
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0101010101
+    paddingTop: .0303030312
+    paddingBottom: .0606060624
+  - name: zc_bang
+    outer:
+      serializedVersion: 2
+      x: 963
+      y: 392
+      width: 32
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 963
+      y: 392
+      width: 32
+      height: 33
+    rotated: 0
+    paddingLeft: .0625
+    paddingRight: .0625
+    paddingTop: .0303030312
+    paddingBottom: .0606060624
+  - name: zl_up
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 175
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 175
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zl_down
+    outer:
+      serializedVersion: 2
+      x: 531
+      y: 71
+      width: 103
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 531
+      y: 71
+      width: 103
+      height: 103
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nsbwz_nstx
+    outer:
+      serializedVersion: 2
+      x: 423
+      y: 648
+      width: 176
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 648
+      width: 176
+      height: 68
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nsbwz_nsxt
+    outer:
+      serializedVersion: 2
+      x: 205
+      y: 835
+      width: 232
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 300
+      y: 835
+      width: 42
+      height: 64
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_chibang_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 386
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 386
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_gonghui_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 277
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 277
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_beibao_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 59
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 59
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_jinglin_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 168
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 168
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zc_chengjiu_up
+    outer:
+      serializedVersion: 2
+      x: 314
+      y: 495
+      width: 108
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 314
+      y: 495
+      width: 108
+      height: 108
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

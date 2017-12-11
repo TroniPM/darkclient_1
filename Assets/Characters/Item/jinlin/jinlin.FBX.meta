@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 3f643a07d8719254593281a28fb0def2
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Apollo
+    100002: Ares
+    100004: Athena
+    100006: Bone001
+    100008: bone_Plane001
+    100010: Hades
+    100012: //RootNode
+    100014: Zeus
+    400000: Apollo
+    400002: Ares
+    400004: Athena
+    400006: Bone001
+    400008: bone_Plane001
+    400010: Hades
+    400012: //RootNode
+    400014: Zeus
+    2300000: Apollo
+    2300002: Ares
+    2300004: Athena
+    2300006: Hades
+    2300008: Zeus
+    3300000: Apollo
+    3300002: Ares
+    3300004: Athena
+    3300006: Hades
+    3300008: Zeus
+    4300000: Apollo
+    4300002: Ares
+    4300004: Athena
+    4300006: Hades
+    4300008: Zeus
+    7400000: jinlin
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Apollo
+    13700002: Ares
+    13700004: Athena
+    13700006: Hades
+    13700008: Zeus
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: jinlin
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: bone_Plane001
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

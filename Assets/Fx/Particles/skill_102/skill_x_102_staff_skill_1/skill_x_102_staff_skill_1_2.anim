@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: skill_x_102_staff_skill_1_2
+  serializedVersion: 3
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .600000024
+        value: {x: -.00256758928, y: 5.07695055, z: -.972994447}
+        inSlope: {x: 0, y: -19.4901543, z: 11.4238214}
+        outSlope: {x: 0, y: -19.4901543, z: 11.4238214}
+        tangentMode: -559038737
+      - time: .866666734
+        value: {x: -.00256758928, y: -.120424747, z: 2.07335854}
+        inSlope: {x: 0, y: -19.4901543, z: 11.4238214}
+        outSlope: {x: 0, y: -19.4901543, z: 11.4238214}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: shitou
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 6.00000048
+        outSlope: 6.00000048
+        tangentMode: 10
+      - time: .649999976
+        value: .400000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .400000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666698
+        value: 0
+        inSlope: -3.42857122
+        outSlope: -3.42857122
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: shitou/fx_fbx_aerolite_tail
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333373
+        value: 0
+        inSlope: 12.0000114
+        outSlope: 12.0000114
+        tangentMode: 10
+      - time: .616666675
+        value: .400000006
+        inSlope: 6.00000572
+        outSlope: 6.00000572
+        tangentMode: 10
+      - time: 1.43333328
+        value: .400000006
+        inSlope: -.800000012
+        outSlope: -.800000012
+        tangentMode: 10
+      - time: 1.68333328
+        value: 0
+        inSlope: -1.60000002
+        outSlope: -1.60000002
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: shitou/fx_fbx_aerolite02
+    classID: 21
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .600000024
+        value: -.00256758928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .866666734
+        value: -.00256758928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: shitou
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .600000024
+        value: 5.07695055
+        inSlope: -19.4901543
+        outSlope: -19.4901543
+        tangentMode: 10
+      - time: .866666734
+        value: -.120424747
+        inSlope: -19.4901543
+        outSlope: -19.4901543
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: shitou
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .600000024
+        value: -.972994447
+        inSlope: 11.4238214
+        outSlope: 11.4238214
+        tangentMode: 10
+      - time: .866666734
+        value: 2.07335854
+        inSlope: 11.4238214
+        outSlope: 11.4238214
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: shitou
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333313
+        value: 0
+        inSlope: 6.00000048
+        outSlope: 6.00000048
+        tangentMode: 10
+      - time: .649999976
+        value: .400000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .850000024
+        value: .400000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .966666698
+        value: 0
+        inSlope: -3.42857122
+        outSlope: -3.42857122
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: shitou/fx_fbx_aerolite_tail
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: .583333373
+        value: 0
+        inSlope: 12.0000114
+        outSlope: 12.0000114
+        tangentMode: 10
+      - time: .616666675
+        value: .400000006
+        inSlope: 6.00000572
+        outSlope: 6.00000572
+        tangentMode: 10
+      - time: 1.43333328
+        value: .400000006
+        inSlope: -.800000012
+        outSlope: -.800000012
+        tangentMode: 10
+      - time: 1.68333328
+        value: 0
+        inSlope: -1.60000002
+        outSlope: -1.60000002
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: shitou/fx_fbx_aerolite02
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []

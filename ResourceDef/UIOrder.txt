@@ -1,0 +1,17 @@
+MogoMainUI
+NormalMainUI
+NewLoginUI
+MogoNoticeContent
+PropInfoDetailEffectNum
+MogoBattleBillboardUI
+SplitBattleBillboard
+SuperBattleBillboard
+MogoNoticeTitle
+ChooseCharcterUIGrid
+CreateCharacterDetailUIJobAttr
+ChooseServerUIServerBtn
+ChooseServerPage
+InfoBillboard
+CommunityUI
+FaceIcon
+MenuUI

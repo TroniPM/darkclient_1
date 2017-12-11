@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoClimbTowerUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 8c9e8e92e8df54643a839c5a5a5988b2, type: 2}
+  sprites:
+  - name: tz_tb
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 306
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 306
+      height: 151
+    rotated: 0
+    paddingLeft: .00326797389
+    paddingRight: .00326797389
+    paddingTop: 0
+    paddingBottom: .00662251655
+  - name: tz_tc
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 52
+      width: 224
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 52
+      width: 224
+      height: 123
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .008130081
+    paddingBottom: 0
+  - name: tz_ta
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 328
+      width: 341
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 328
+      width: 341
+      height: 184
+    rotated: 0
+    paddingLeft: .00586510263
+    paddingRight: .00293255132
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tz_xuanzhong
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 481
+      width: 77
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 481
+      width: 77
+      height: 31
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tongyong_huobikuang
+    outer:
+      serializedVersion: 2
+      x: 420
+      y: 488
+      width: 19
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 491
+      width: 13
+      height: 18
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_huisuo
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 433
+      width: 24
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 433
+      width: 24
+      height: 47
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

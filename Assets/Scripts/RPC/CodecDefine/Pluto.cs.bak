@@ -1,0 +1,252 @@
+﻿#region 模块信息
+/*----------------------------------------------------------------
+// Copyright (C) 2013 广州，爱游
+//
+// 模块名：Pluto
+// 创建者：Ash Tang
+// 修改者列表：
+// 创建日期：2013.1.16
+// 模块描述：数据包编解码处理类。
+//----------------------------------------------------------------*/
+#endregion
+using System;
+using Mogo.Util;
+namespace Mogo.RPC
+{
+    /// <summary>
+    /// 数据包编解码处理类。
+    /// </summary>
+    public abstract class Pluto
+    {
+        protected static BitCryto encryto = new BitCryto(new short[] {15, 180, 213, 37, 40, 98, 85, 7, 152, 223, 48, 168, 71, 102, 191, 194});
+        //protected static BitCryto encryto = new BitCryto(new short[] { 0, 0 });
+
+        private const Int32 DEFAULT_PLUTO_BUFF_SIZE = 1024;
+
+        private static EntityDef m_currentEntity;
+
+        protected Byte[] m_szBuff;
+        protected Int32 m_unLen;
+        private Int32 m_unMaxLen;
+        private String m_funcName;
+        private ushort m_funcID;
+        private ushort m_entityID;
+		private String m_entityName;
+		private Object[] m_arguments;
+
+        /// <summary>
+        /// 方法标识
+        /// </summary>
+        public ushort EntityID
+        {
+            get { return m_entityID; }
+            set { m_entityID = value; }
+        }
+
+		/// <summary>
+		/// 实体名称
+		/// </summary>
+		public String EntityName
+		{
+			get { return m_entityName; }
+			set { m_entityName = value; }
+		}
+
+        /// <summary>
+        /// 方法标识
+        /// </summary>
+        public ushort FuncID
+        {
+            get { return m_funcID; }
+            set { m_funcID = value; }
+        }
+
+		/// <summary>
+		/// 方法名称
+		/// </summary>
+		public String FuncName
+		{
+			get { return m_funcName; }
+			set { m_funcName = value; }
+		}
+
+		/// <summary>
+		/// 参数列表
+		/// </summary>
+		public Object[] Arguments
+		{
+			get { return m_arguments; }
+			protected set { m_arguments = value; }
+		}
+
+        /// <summary>
+        /// 当前实体对象
+        /// </summary>
+        public static EntityDef CurrentEntity
+        {
+            get { return m_currentEntity; }
+            set { m_currentEntity = value; }
+        }
+
+        /// <summary>
+        /// 默认构造函数
+        /// </summary>
+        protected Pluto()
+        {
+            m_szBuff = new Byte[DEFAULT_PLUTO_BUFF_SIZE];
+            m_unMaxLen = DEFAULT_PLUTO_BUFF_SIZE;
+        }
+
+        ///// <summary>
+        ///// 将远程方法调用编码为二进制数组。
+        ///// </summary>
+        ///// <param name="args">参数列表</param>
+        ///// <returns>编码后的二进制数组</returns>
+        //public abstract byte[] Encode(params Object[] args);
+
+        /// <summary>
+        /// 处理解码数据。
+        /// </summary>
+        public abstract void HandleData();
+
+        /// <summary>
+        /// 将远程调用的方法解码为具体的方法调用。
+        /// </summary>
+        /// <param name="data">远程调用方法的二进制数组</param>
+        /// <param name="unLen">数据偏移量</param>
+        protected abstract void DoDecode(Byte[] data, ref int unLen);
+
+        ///// <summary>
+        ///// 将远程调用的方法解码为具体的方法调用。
+        ///// </summary>
+        ///// <param name="data">远程调用方法的二进制数组</param>
+        public static Pluto Decode(Byte[] data)
+        {
+            Int32 unLen = 0;
+            Pluto pluto;
+            //string str = BitConverter.ToString(data, 0, data.Length);
+            //LoggerHelper.Debug("pluto decode=" + str+"str length="+str.Length+"data length="+data.Length);
+            var msgId = (MSGIDType)VUInt16.Instance.Decode(data, ref unLen);
+            encryto.Reset();
+            int len = data.Length;
+            for (int i = unLen; i < len; ++i)
+            {
+                data[i] = encryto.Decode(data[i]);
+            }
+            //LoggerHelper.Debug("unLen=" + unLen + "msgid=" + msgId);
+            Mogo.Util.LoggerHelper.Debug("msg_id: " + msgId);
+            switch (msgId)
+            {
+                case MSGIDType.CLIENT_RPC_RESP:
+                    pluto = RpcCallPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_RPC_RESP ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_LOGIN_RESP:
+                    pluto = LoginPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_LOGIN_RESP ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_NOTIFY_ATTACH_BASEAPP:
+                    pluto = BaseLoginPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_NOTIFY_ATTACH_BASEAPP ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_ENTITY_ATTACHED:
+                    //LoggerHelper.Debug("start entity attached");
+                    pluto = EntityAttachedPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_ENTITY_ATTACHED ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_AOI_NEW_ENTITY:
+                    pluto = AOINewEntityPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_AOI_NEW_ENTITY ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_AOI_DEL_ENTITY:
+                    pluto = AOIDelEntityPluto.Create();
+ LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_AOI_DEL_ENTITY ----------- pluto= " + pluto);
+                   break;
+                case MSGIDType.CLIENT_OTHER_ENTITY_POS_SYNC:
+                    pluto = OtherEntityPosSyncPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_OTHER_ENTITY_POS_SYNC ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_OTHER_ENTITY_POS_PULL:
+                    pluto = OtherEntityPosPullPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_OTHER_ENTITY_POS_PULL ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_OTHER_ENTITY_TELEPORT:
+                    pluto = OtherEntityPosTeleportPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_OTHER_ENTITY_TELEPORT ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_ENTITY_CELL_ATTACHED:
+                    pluto = EntityCellAttachedPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_ENTITY_CELL_ATTACHED ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_AOI_ENTITIES:
+                    pluto = AOIEntitiesPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_AOI_ENTITIES ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_AVATAR_ATTRI_SYNC:
+                    pluto = AvatarAttriSyncPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_AVATAR_ATTRI_SYNC ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_OTHER_ENTITY_ATTRI_SYNC:
+                    pluto = OtherAttriSyncPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_OTHER_ENTITY_ATTRI_SYNC ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_ENTITY_POS_SYNC:
+                    pluto = EntityPosSyncPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_ENTITY_POS_SYNC ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_ENTITY_POS_PULL:
+                    pluto = EntityPosPullPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_ENTITY_POS_PULL ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_ENTITY_POS_TELEPORT:
+                    pluto = EntityPosTeleportPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_ENTITY_POS_TELEPORT ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.CLIENT_CHECK_RESP:
+                    pluto = CheckDefMD5Pluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- CLIENT_CHECK_RESP ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.BASEAPP_CLIENT_REFUSE_RELOGIN:
+                    pluto = ReConnectRefusePluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- BASEAPP_CLIENT_REFUSE_RELOGIN ----------- pluto= " + pluto);
+                    break;
+                case MSGIDType.NOTIFY_CLIENT_DEFUSE_LOGIN:
+                    pluto = DefuseLoginPluto.Create();
+LoggerHelper.Debug("------------ Pluto Decode---- NOTIFY_CLIENT_DEFUSE_LOGIN ----------- pluto= " + pluto);
+                    break;
+                default:
+                    pluto = NotImplementedPluto.Create();
+                    break;
+            }
+
+            
+
+            pluto.DoDecode(data, ref unLen);
+
+            return pluto;
+        }
+
+        protected void Push(Byte[] data)
+        {
+            if (m_unLen + data.Length > m_unMaxLen)
+            {
+                m_unMaxLen = m_unMaxLen + DEFAULT_PLUTO_BUFF_SIZE;
+                Byte[] newArray = new Byte[m_unMaxLen];
+                Buffer.BlockCopy(m_szBuff, 0, newArray, 0, m_unLen);
+                m_szBuff = newArray;
+            }
+            Buffer.BlockCopy(data, 0, m_szBuff, m_unLen, data.Length);
+            m_unLen += data.Length;
+        }
+
+        protected void EndPluto(byte[] bytes)
+        {
+            encryto.Reset();
+            int len = bytes.Length;
+            for (int i = 2; i < len; i++)
+            {
+                bytes[i] = encryto.Encode(bytes[i]);
+            }
+        }
+    }
+}

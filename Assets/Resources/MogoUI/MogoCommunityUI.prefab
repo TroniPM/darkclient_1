@@ -1,0 +1,1856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoCommunityUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: 6ffa14b229ab4c6409c95d38a9590517, type: 2}
+  sprites:
+  - name: lt_haoyouxuanze_down
+    outer:
+      serializedVersion: 2
+      x: 498
+      y: 418
+      width: 8
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 501
+      y: 421
+      width: 2
+      height: 3
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_haoyoubeijing
+    outer:
+      serializedVersion: 2
+      x: 45
+      y: 186
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 45
+      y: 186
+      width: 24
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_fasong
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 110
+      width: 44
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 110
+      width: 44
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_haoyouxuanze_up
+    outer:
+      serializedVersion: 2
+      x: 45
+      y: 171
+      width: 15
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 50
+      y: 176
+      width: 5
+      height: 4
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_beijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 134
+      width: 44
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 15
+      y: 149
+      width: 14
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_xuanxiangka_up
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 325
+      width: 124
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 325
+      width: 124
+      height: 51
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0196078438
+  - name: lt_xuanxiangka_down
+    outer:
+      serializedVersion: 2
+      x: 373
+      y: 379
+      width: 124
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 373
+      y: 379
+      width: 124
+      height: 48
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_03up
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 428
+      width: 236
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 267
+      y: 458
+      width: 176
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btn_03down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 428
+      width: 236
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 30
+      y: 458
+      width: 176
+      height: 24
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_yincang
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 136
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 136
+      width: 36
+      height: 36
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_xianshikuang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 211
+      width: 56
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 15
+      y: 226
+      width: 26
+      height: 38
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_shurukuang
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 377
+      width: 372
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 377
+      width: 372
+      height: 50
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_biaoqing_up
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 52
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 52
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_biaoqing_down
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 52
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 12
+      width: 52
+      height: 60
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lyfw_milingbeijing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 280
+      width: 69
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 25
+      y: 305
+      width: 19
+      height: 46
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0144927539
+    paddingTop: .010416667
+    paddingBottom: 0
+  - name: tx_0
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tx_1
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tx_2
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: tx_3
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heng_0
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heng_1
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heng_2
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: heng_3
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xh_0
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xh_1
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xh_2
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: xh_3
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_2
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_1
+    outer:
+      serializedVersion: 2
+      x: 108
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 108
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_0
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_5
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_3
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: kun_4
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hx_1
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hx_2
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hx_0
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hx_3
+    outer:
+      serializedVersion: 2
+      x: 146
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 146
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nu_0
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nu_1
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dzh_0
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dzh_3
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dzh_1
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: dzh_2
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_4
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_5
+    outer:
+      serializedVersion: 2
+      x: 184
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 184
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_1
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_2
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_3
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: zk_0
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nie_1
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: nie_0
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yun_3
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yun_2
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yun_0
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yun_1
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_4
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_0
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_1
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_5
+    outer:
+      serializedVersion: 2
+      x: 222
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 222
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_3
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hy_2
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: han_0
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: han_2
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: han_1
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lb_1
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lb_3
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lb_0
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lb_2
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_3
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_4
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_2
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_1
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_0
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ls_5
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_5
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_0
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 211
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 211
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_4
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_1
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_2
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: sr_3
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_4
+    outer:
+      serializedVersion: 2
+      x: 298
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 298
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_3
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_5
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_2
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_0
+    outer:
+      serializedVersion: 2
+      x: 450
+      y: 173
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 450
+      y: 173
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lei_1
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pg_2
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 97
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 97
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pg_1
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 59
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 59
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pg_4
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 21
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 21
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pg_0
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pg_3
+    outer:
+      serializedVersion: 2
+      x: 412
+      y: 135
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 412
+      y: 135
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fw_0
+    outer:
+      serializedVersion: 2
+      x: 474
+      y: 475
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 475
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fw_2
+    outer:
+      serializedVersion: 2
+      x: 474
+      y: 437
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 474
+      y: 437
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fw_3
+    outer:
+      serializedVersion: 2
+      x: 455
+      y: 339
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 455
+      y: 339
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fw_1
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 287
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 287
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fw_4
+    outer:
+      serializedVersion: 2
+      x: 70
+      y: 249
+      width: 37
+      height: 37
+    inner:
+      serializedVersion: 2
+      x: 70
+      y: 249
+      width: 37
+      height: 37
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_sl
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 341
+      width: 64
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 341
+      width: 64
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0285714287
+    paddingBottom: 0
+  - name: lt_gh
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 341
+      width: 64
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 341
+      width: 64
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0285714287
+    paddingBottom: 0
+  - name: lt_sj
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 341
+      width: 64
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 341
+      width: 64
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0285714287
+    paddingBottom: 0
+  - name: lt_xt
+    outer:
+      serializedVersion: 2
+      x: 325
+      y: 341
+      width: 64
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 325
+      y: 341
+      width: 64
+      height: 35
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0285714287
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

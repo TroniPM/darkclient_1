@@ -1,0 +1,16 @@
+<root>
+  <r>
+    <name>UI</name>
+    <type>prefab</type>
+    <packLevel>.prefab .fbx .controller .png .exr .tga .tif .asset .jpg .jpeg .psd .mp3 .mat .wav .unity .shader .ttf</packLevel>
+    <isMerge>0</isMerge>
+    <isPopInBuild>false</isPopInBuild>
+    <extention>.prefab</extention>
+    <folders>
+      <r>
+        <path>Resources/GUI</path>
+        <deep>true</deep>
+      </r>
+    </folders>
+  </r>
+</root>

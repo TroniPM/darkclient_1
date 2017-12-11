@@ -1,0 +1,547 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: fx_chuansongzhen1
+  serializedVersion: 4
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.707106769, y: -0, z: -0, w: .707106769}
+        inSlope: {x: .0145375719, y: 1.11059391, z: 1.11059391, w: -.0145375719}
+        outSlope: {x: .0145375719, y: 1.11059391, z: 1.11059391, w: -.0145375719}
+        tangentMode: -559038737
+      - time: .283333361
+        value: {x: -.638224125, y: .304417342, z: .304417342, w: .638224125}
+        inSlope: {x: .478123009, y: 1.00240588, z: 1.00240588, w: -.478123009}
+        outSlope: {x: .478123009, y: 1.00240588, z: 1.00240588, w: -.478123009}
+        tangentMode: -559038737
+      - time: .783333242
+        value: {x: -.23603721, y: .666548133, z: .666548133, w: .23603721}
+        inSlope: {x: 1.04689443, y: .370724559, z: .370724559, w: -1.04689443}
+        outSlope: {x: 1.04689443, y: .370724559, z: .370724559, w: -1.04689443}
+        tangentMode: -559038737
+      - time: 1.28333282
+        value: {x: .304416716, y: .638224423, z: .638224423, w: -.304416716}
+        inSlope: {x: 1.00240588, y: -.478122115, z: -.478122115, w: -1.00240588}
+        outSlope: {x: 1.00240588, y: -.478122115, z: -.478122115, w: -1.00240588}
+        tangentMode: -559038737
+      - time: 1.78333235
+        value: {x: .666547775, y: .236038134, z: .236038134, w: -.666547775}
+        inSlope: {x: .370726347, y: -1.04689169, z: -1.04689169, w: -.370726347}
+        outSlope: {x: .370726347, y: -1.04689169, z: -1.04689169, w: -.370726347}
+        tangentMode: -559038737
+      - time: 2
+        value: {x: .707106769, y: -6.18172393e-08, z: -6.18172393e-08, w: -.707106769}
+        inSlope: {x: .0145401228, y: -1.11060011, z: -1.11060011, w: -.0145401228}
+        outSlope: {x: .0145401228, y: -1.11060011, z: -1.11060011, w: -.0145401228}
+        tangentMode: -559038737
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_fx_chuansongzhen1_2
+  m_CompressedRotationCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: .682885349}
+        inSlope: {x: 0, y: 0, z: .0742293596}
+        outSlope: {x: 0, y: 0, z: .0742293596}
+        tangentMode: 67
+      - time: .5
+        value: {x: 1, y: 1, z: .720000029}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: -559038737
+      - time: 1
+        value: {x: 1, y: 1, z: .682885349}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1.5
+        value: {x: 1, y: 1, z: .720000029}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 2
+        value: {x: 1, y: 1, z: .682885349}
+        inSlope: {x: 0, y: 0, z: -.0742293596}
+        outSlope: {x: 0, y: 0, z: -.0742293596}
+        tangentMode: 15
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: fbx_fx_chuansongzhen1_2
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .200000003
+        inSlope: -.049999997
+        outSlope: -.049999997
+        tangentMode: 10
+      - time: 1
+        value: .150000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: .200000003
+        inSlope: .049999997
+        outSlope: .049999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.707106769
+        inSlope: .0145375719
+        outSlope: .0145375719
+        tangentMode: 0
+      - time: .283333361
+        value: -.638224125
+        inSlope: .478123009
+        outSlope: .478123009
+        tangentMode: 0
+      - time: .783333242
+        value: -.23603721
+        inSlope: 1.04689443
+        outSlope: 1.04689443
+        tangentMode: 0
+      - time: 1.28333282
+        value: .304416716
+        inSlope: 1.00240588
+        outSlope: 1.00240588
+        tangentMode: 0
+      - time: 1.78333235
+        value: .666547775
+        inSlope: .370726347
+        outSlope: .370726347
+        tangentMode: 0
+      - time: 2
+        value: .707106769
+        inSlope: .0145401228
+        outSlope: .0145401228
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 1.11059391
+        outSlope: 1.11059391
+        tangentMode: 0
+      - time: .283333361
+        value: .304417342
+        inSlope: 1.00240588
+        outSlope: 1.00240588
+        tangentMode: 0
+      - time: .783333242
+        value: .666548133
+        inSlope: .370724559
+        outSlope: .370724559
+        tangentMode: 0
+      - time: 1.28333282
+        value: .638224423
+        inSlope: -.478122115
+        outSlope: -.478122115
+        tangentMode: 0
+      - time: 1.78333235
+        value: .236038134
+        inSlope: -1.04689169
+        outSlope: -1.04689169
+        tangentMode: 0
+      - time: 2
+        value: -6.18172393e-08
+        inSlope: -1.11060011
+        outSlope: -1.11060011
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 1.11059391
+        outSlope: 1.11059391
+        tangentMode: 0
+      - time: .283333361
+        value: .304417342
+        inSlope: 1.00240588
+        outSlope: 1.00240588
+        tangentMode: 0
+      - time: .783333242
+        value: .666548133
+        inSlope: .370724559
+        outSlope: .370724559
+        tangentMode: 0
+      - time: 1.28333282
+        value: .638224423
+        inSlope: -.478122115
+        outSlope: -.478122115
+        tangentMode: 0
+      - time: 1.78333235
+        value: .236038134
+        inSlope: -1.04689169
+        outSlope: -1.04689169
+        tangentMode: 0
+      - time: 2
+        value: -6.18172393e-08
+        inSlope: -1.11060011
+        outSlope: -1.11060011
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .707106769
+        inSlope: -.0145375719
+        outSlope: -.0145375719
+        tangentMode: 0
+      - time: .283333361
+        value: .638224125
+        inSlope: -.478123009
+        outSlope: -.478123009
+        tangentMode: 0
+      - time: .783333242
+        value: .23603721
+        inSlope: -1.04689443
+        outSlope: -1.04689443
+        tangentMode: 0
+      - time: 1.28333282
+        value: -.304416716
+        inSlope: -1.00240588
+        outSlope: -1.00240588
+        tangentMode: 0
+      - time: 1.78333235
+        value: -.666547775
+        inSlope: -.370726347
+        outSlope: -.370726347
+        tangentMode: 0
+      - time: 2
+        value: -.707106769
+        inSlope: -.0145401228
+        outSlope: -.0145401228
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.x
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.y
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .682885349
+        inSlope: .0742293596
+        outSlope: .0742293596
+        tangentMode: 10
+      - time: .5
+        value: .720000029
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: .682885349
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1.5
+        value: .720000029
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: .682885349
+        inSlope: -.0742293596
+        outSlope: -.0742293596
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalScale.z
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .200000003
+        inSlope: -.049999997
+        outSlope: -.049999997
+        tangentMode: 10
+      - time: 1
+        value: .150000006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: .200000003
+        inSlope: .049999997
+        outSlope: .049999997
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.a
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.r
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.g
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .335820913
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: _TintColor.b
+    path: fbx_fx_chuansongzhen1_2
+    classID: 21
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 270
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 270
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 180
+        outSlope: 180
+        tangentMode: 10
+      - time: 2
+        value: 360
+        inSlope: 180
+        outSlope: 180
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: fbx_fx_chuansongzhen1_2
+    classID: 4
+    script: {fileID: 0}
+  m_Events: []

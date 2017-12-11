@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7FB791B1-4279-9D57-0747-BB6F5C31EAEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_IOS_NATIVE_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;PLATFORM_IOS;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_MONO;NET_2_0_SUBSET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\BuildProjectExWizard.cs" />
+     <Compile Include="Assets\Editor\BuildProjectVersionWizard.cs" />
+     <Compile Include="Assets\Editor\BundleExporter.cs" />
+     <Compile Include="Assets\Editor\DebugFilter.cs" />
+     <Compile Include="Assets\Editor\ExportGameObjectData\CrockMessageCollecter.cs" />
+     <Compile Include="Assets\Editor\ExportGameObjectData\GameObjectsMessageCollecter.cs" />
+     <Compile Include="Assets\Editor\ExportGameObjectData\NPCMessageCollecter.cs" />
+     <Compile Include="Assets\Editor\ExportGear\ExportGear.cs" />
+     <Compile Include="Assets\Editor\ExportMissionPathPoint.cs" />
+     <Compile Include="Assets\Editor\ExportScenes.cs" />
+     <Compile Include="Assets\Editor\FindMissingScriptsRecursively.cs" />
+     <Compile Include="Assets\Editor\NGUI\BMFontReader.cs" />
+     <Compile Include="Assets\Editor\NGUI\ComponentSelector.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUIEditorTools.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUIJson.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUIMenu.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUISelectionTools.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUISettings.cs" />
+     <Compile Include="Assets\Editor\NGUI\NGUITransformInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\NineSprite.cs" />
+     <Compile Include="Assets\Editor\NGUI\NineSpriteInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\outside.cs" />
+     <Compile Include="Assets\Editor\NGUI\PropSheet.cs" />
+     <Compile Include="Assets\Editor\NGUI\PropSheetInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\SpriteSelector.cs" />
+     <Compile Include="Assets\Editor\NGUI\TreeList.cs" />
+     <Compile Include="Assets\Editor\NGUI\TreeListGird.cs" />
+     <Compile Include="Assets\Editor\NGUI\TreeListInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIAtlasInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIAtlasMaker.cs" />
+     <Compile Include="Assets\Editor\NGUI\UICameraTool.cs" />
+     <Compile Include="Assets\Editor\NGUI\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\Editor\NGUI\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIFilledSpriteInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIFontInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIFontMaker.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UILabelInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIPanelInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIPanelTool.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIPopupListInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIScrollBarInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UISlicedSpriteInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UISliderInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UISpriteInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UITextureInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UITexturePacker.cs" />
+     <Compile Include="Assets\Editor\NGUI\UITiledSpriteInspector.cs" />
+     <Compile Include="Assets\Editor\NGUI\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Editor\OSXTools\OSXTools.cs" />
+     <Compile Include="Assets\Editor\PackWizard.cs" />
+     <Compile Include="Assets\Editor\ResourceVersionManager.cs" />
+     <Compile Include="Assets\Editor\ShowDependencies.cs" />
+     <Compile Include="Assets\Editor\ShutDown.cs" />
+     <Compile Include="Assets\Editor\SVNUtils.cs" />
+     <Compile Include="Assets\Editor\Unity-Resource-Checker\ResourceChecker.cs" />
+     <None Include="Assets\Resources\data\xml\UpgradeGuide.xml" />
+     <None Include="Assets\Resources\data\entity_defs\MapMgr.xml" />
+     <None Include="Assets\Resources\data\xml\SpiritSkillData.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG5.xml" />
+     <None Include="Assets\Resources\data\entity_defs\UserMgr.xml" />
+     <None Include="Assets\Resources\data\spaces\s10608.xml" />
+     <None Include="Assets\Resources\data\xml\Wing.xml" />
+     <None Include="Assets\Resources\SystemSwitch.xml" />
+     <None Include="Assets\Resources\data\xml\ArenaCreditReward4Challenge.xml" />
+     <None Include="Assets\Resources\data\xml\ShaderData.xml" />
+     <None Include="Assets\Resources\data\spaces\s40003.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10401_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Avatar.xml" />
+     <None Include="Assets\Resources\data\entity_defs\mail_private.xml" />
+     <None Include="Assets\Resources\Shader\Rain.shader" />
+     <None Include="Assets\Resources\data\xml\QualityColor.xml" />
+     <None Include="Assets\Resources\server.xml" />
+     <None Include="Assets\Resources\data\entity_defs\NameMgr.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG27.xml" />
+     <None Include="Assets\Resources\data\entity_defs\WorldBossMgr.xml" />
+     <None Include="Assets\Resources\Shader\MogoBlackWhiteETC.shader" />
+     <None Include="Assets\Resources\data\entity_defs\GlobalDataMgr.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG25.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10602_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10604.xml" />
+     <None Include="Assets\Resources\data\spaces\s10403.xml" />
+     <None Include="Assets\Resources\data\xml\SystemRequirement.xml" />
+     <None Include="Assets\Resources\data\entity_defs\TeleportPointSrc.xml" />
+     <None Include="Assets\Resources\data\xml\NameOccidentalFemale.xml" />
+     <None Include="Assets\Resources\data\spaces\s10207.xml" />
+     <None Include="Assets\Resources\data\xml\Cg_Config.xml" />
+     <None Include="Assets\Resources\Shader\MogoGodUIETC.shader" />
+     <None Include="Assets\Resources\data\spaces\s40001.xml" />
+     <None Include="Assets\Resources\data\xml\CameraAnim.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG1.xml" />
+     <None Include="Assets\Resources\data\entity_defs\WorldBossData.xml" />
+     <None Include="Assets\Resources\data\xml\gui_config.xml" />
+     <None Include="Assets\Resources\Shader\DissionShader.shader" />
+     <None Include="Assets\Resources\data\entity_defs\ArenaMgr.xml" />
+     <None Include="Assets\Resources\data\xml\ItemOthers.xml" />
+     <None Include="Assets\Resources\Shader\MogoButtonUIETC.shader" />
+     <None Include="Assets\Resources\data\spaces\s10407.xml" />
+     <None Include="Assets\Resources\Shader\MogoTopUIETC.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10101_PathPoint.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10108_PathPoint.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Resources\data\spaces\s20009.xml" />
+     <None Include="Assets\Resources\data\spaces\s20008.xml" />
+     <None Include="Assets\Resources\data\spaces\s10406.xml" />
+     <None Include="Assets\Resources\data\xml\ItemEquipValues.xml" />
+     <None Include="Assets\Resources\data\xml\teleport_setting.xml" />
+     <None Include="Assets\Resources\data\xml\fumo_effect.xml" />
+     <None Include="Assets\Resources\data\spaces\s10506.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG107.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG100.xml" />
+     <None Include="Assets\Resources\data\xml\billbord.xml" />
+     <None Include="Assets\Resources\data\xml\compensation_last_server.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10103_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10203.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG31.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG108.xml" />
+     <None Include="Assets\Resources\Shader\PlayerShader.shader" />
+     <None Include="Assets\Resources\data\xml\MissionReward.xml" />
+     <None Include="Assets\Resources\data\xml\FansReward.xml" />
+     <None Include="Assets\Resources\Shader\Rrefraction.shader" />
+     <None Include="Assets\Resources\data\xml\ElfSkillUpgrade.xml" />
+     <None Include="Assets\Resources\data\spaces\s10408.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG37.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10605_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\MogoAngelUIETC.shader" />
+     <None Include="Assets\Resources\data\xml\JewelSort.xml" />
+     <None Include="Assets\Resources\Shader\ReflectiveBackgroundSelfIllumination.shader" />
+     <None Include="Assets\Resources\data\xml\EventMgr.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG6.xml" />
+     <None Include="Assets\Resources\data\xml\GuildLevel.xml" />
+     <None Include="Assets\Resources\data\spaces\s40008.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sw720dp-land\dimens.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG3.xml" />
+     <None Include="Assets\Resources\data\spaces\s10402.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10601_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10302.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG16.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG32.xml" />
+     <None Include="Assets\Resources\data\xml\SkillBuff.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_OblivionDrop.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10606_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10605.xml" />
+     <None Include="Assets\Resources\Shader\MogoEquipShader.shader" />
+     <None Include="Assets\Resources\data\xml\NameOrientalMale.xml" />
+     <None Include="Assets\Resources\Shader\MogoParticleAlphaBlended.shader" />
+     <None Include="Assets\Resources\data\entity_defs\MailMgr.xml" />
+     <None Include="Assets\Resources\Shader\MogoTopUI.shader" />
+     <None Include="Assets\Resources\data\entity_defs\FlyDragonMgr.xml" />
+     <None Include="Assets\Resources\data\spaces\s10307.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG41.xml" />
+     <None Include="Assets\Plugins\Android\res\menu\main.xml" />
+     <None Include="Assets\Resources\data\xml\SpiritLevelData_Mark.xml" />
+     <None Include="Assets\Resources\data\spaces\s20011.xml" />
+     <None Include="Assets\Resources\data\spaces\s10103.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40002_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Monster.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10404_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\RankList.xml" />
+     <None Include="Assets\Resources\data\spaces\s10704.xml" />
+     <None Include="Assets\Resources\data\xml\MapUIMapping.xml" />
+     <None Include="Assets\Resources\data\xml\Rune.xml" />
+     <None Include="Assets\Resources\data\xml\SanctuaryDefenseEnterTimesPrice.xml" />
+     <None Include="Assets\Resources\Shader\MogoEquipETCShader.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10209_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\JewelCube.xml" />
+     <None Include="Assets\Resources\Shader\UVTwirl.shader" />
+     <None Include="Assets\Resources\Shader\MogoAngelUI.shader" />
+     <None Include="Assets\Resources\data\xml\loadingTips.xml" />
+     <None Include="Assets\Resources\data\xml\MissionEvent.xml" />
+     <None Include="Assets\Resources\data\xml\GuildSkill.xml" />
+     <None Include="Assets\Resources\data\xml\InstanceLevelGridPos.xml" />
+     <None Include="Assets\Resources\data\spaces\s10301.xml" />
+     <None Include="Assets\Resources\data\xml\UIMap.xml" />
+     <None Include="Assets\Resources\Shader\RainSplash.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10407_PathPoint.xml" />
+     <None Include="Assets\Resources\serverGroup.xml" />
+     <None Include="Assets\Resources\data\spaces\s40004.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10106_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\SpaceLoader.xml" />
+     <None Include="Assets\Resources\data\spaces\s10202.xml" />
+     <None Include="Assets\Resources\data\xml\NameOccidentalMale.xml" />
+     <None Include="Assets\Resources\data\xml\FightForceFactor.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10203_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\TestFX.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10702_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG13.xml" />
+     <None Include="Assets\Resources\resourceInfo.xml" />
+     <None Include="Assets\Resources\Shader\Fallback.shader" />
+     <None Include="Assets\Resources\data\xml\StoryCG11.xml" />
+     <None Include="Assets\Resources\data\entity_defs\mail_public.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Resources\data\xml\DragonRewards.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Monster.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_Recharge.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10305_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Mercenary.xml" />
+     <None Include="Assets\Resources\data\spaces\s40009.xml" />
+     <None Include="Assets\Resources\data\xml\NameOrientalFemale.xml" />
+     <None Include="Assets\Resources\data\xml\NameOrientalLast.xml" />
+     <None Include="Assets\Resources\data\xml\GearData.xml" />
+     <None Include="Assets\Resources\data\spaces\s20010.xml" />
+     <None Include="Assets\Resources\data\xml\privilege.xml" />
+     <None Include="Assets\Resources\data\xml\ItemCom.xml" />
+     <None Include="Assets\Resources\data\xml\UIFX.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG21.xml" />
+     <None Include="Assets\Resources\data\xml\AvatarLevel.xml" />
+     <None Include="Assets\Resources\data\entity_defs\OfflineMgr.xml" />
+     <None Include="Assets\Resources\data\xml\Behavior.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10703_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10308.xml" />
+     <None Include="Assets\Resources\data\spaces\s20004.xml" />
+     <None Include="Assets\Resources\data\xml\global_params.xml" />
+     <None Include="Assets\Resources\data\xml\ElfAreaLimit.xml" />
+     <None Include="Assets\Resources\data\xml\DragonEvents.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10507_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\entities.xml" />
+     <None Include="Assets\Resources\data\spaces\s50001.xml" />
+     <None Include="Assets\Resources\data\spaces\s42000.xml" />
+     <None Include="Assets\Resources\data\spaces\s10401.xml" />
+     <None Include="Assets\Resources\Shader\MogoBlackWhite.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10604_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\ClientEvent.xml" />
+     <None Include="Assets\Plugins\Android\res\values-sw600dp\dimens.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10503_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\ChargeMgr.xml" />
+     <None Include="Assets\Resources\data\entity_defs\MissionMgr.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG19.xml" />
+     <None Include="Assets\Resources\data\xml\EquipSpecialEffects.xml" />
+     <None Include="Assets\Resources\data\spaces\s10304.xml" />
+     <None Include="Assets\Resources\Shader\MogoUIBackGroundETC.shader" />
+     <None Include="Assets\Resources\data\spaces\s10205.xml" />
+     <None Include="Assets\Resources\data\spaces\s10706.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10309_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10405.xml" />
+     <None Include="Assets\Resources\data\entity_defs\EventMgr.xml" />
+     <None Include="Assets\Resources\data\spaces\s22222.xml" />
+     <None Include="Assets\Resources\data\xml\ActionSound.xml" />
+     <None Include="Assets\Resources\data\xml\UpgradePower.xml" />
+     <None Include="Assets\Resources\Shader\MogoCardBG.shader" />
+     <None Include="Assets\Resources\data\xml\PriceList.xml" />
+     <None Include="Assets\Resources\data\spaces\s20007.xml" />
+     <None Include="Assets\Resources\Shader\MogoUI.shader" />
+     <None Include="Assets\Resources\data\entity_defs\GuildMgr.xml" />
+     <None Include="Assets\Resources\data\xml\notification.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10208_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\MogoCameraLighting.shader" />
+     <None Include="Assets\Plugins\Android\res\values-v14\styles.xml" />
+     <None Include="Assets\Resources\Shader\MonsterShader.shader" />
+     <None Include="Assets\Resources\data\xml\storyCG7.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG45.xml" />
+     <None Include="Assets\Resources\data\xml\ActivityReward.xml" />
+     <None Include="Assets\Resources\data\spaces\s10701.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG105.xml" />
+     <None Include="Assets\Resources\data\xml\ItemJewel.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG17.xml" />
+     <None Include="Assets\Resources\data\entity_defs\mgr_compensate.xml" />
+     <None Include="Assets\Resources\data\xml\ModelData.xml" />
+     <None Include="Assets\Resources\data\spaces\s10505.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG56.xml" />
+     <None Include="Assets\Resources\data\xml\SpiritMarkData.xml" />
+     <None Include="Assets\Resources\data\xml\DragonStation.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10102_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\DropFXData.xml" />
+     <None Include="Assets\Resources\Shader\MogoMonsterHitShader.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10509_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG14.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10104_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\DragonEventDesc.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG38.xml" />
+     <None Include="Assets\Resources\data\spaces\s10108.xml" />
+     <None Include="Assets\Resources\data\spaces\s22221.xml" />
+     <None Include="Assets\Resources\data\spaces\s10209.xml" />
+     <None Include="Assets\Resources\data\spaces\s10702.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG39.xml" />
+     <None Include="Assets\Resources\data\spaces\s10201.xml" />
+     <None Include="Assets\Resources\data\spaces\s10208.xml" />
+     <None Include="Assets\Resources\Shader\MogoTeachFont.shader" />
+     <None Include="Assets\Resources\data\spaces\s10503.xml" />
+     <None Include="Assets\Resources\data\spaces\s10309.xml" />
+     <None Include="Assets\Resources\Default\DefaultXml\DefaultChineseData.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10107_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG46.xml" />
+     <None Include="Assets\Resources\data\xml\EquipRecommend.xml" />
+     <None Include="Assets\Resources\data\spaces\s40006.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG29.xml" />
+     <None Include="Assets\Resources\data\xml\FXData.xml" />
+     <None Include="Assets\Resources\data\spaces\s10607.xml" />
+     <None Include="Assets\Resources\data\spaces\s10101.xml" />
+     <None Include="Assets\Resources\data\xml\EquipFXRes.xml" />
+     <None Include="Assets\Resources\data\xml\ArenaConfig.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10701_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\MogoUIETC.shader" />
+     <None Include="Assets\Resources\data\xml\TaskData.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG24.xml" />
+     <None Include="Assets\Resources\data\spaces\s10609.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\web.xml" />
+     <None Include="Assets\Resources\data\entity_defs\RouletteMgr.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Resources\Shader\MogoGray.shader" />
+     <None Include="Assets\Resources\localserver.xml" />
+     <None Include="Assets\Resources\data\spaces\s10404.xml" />
+     <None Include="Assets\Resources\data\xml\ItemEffect.xml" />
+     <None Include="Assets\Resources\data\spaces\s30001.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10706_PathPoint.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10202_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10409.xml" />
+     <None Include="Assets\Resources\Shader\MogoGodUI.shader" />
+     <None Include="Assets\Resources\data\xml\Reward_OblivionAttr.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10408_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\HpTypes.xml" />
+     <None Include="Assets\Resources\data\entity_defs\SpawnPoint.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10301_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\MarketData.xml" />
+     <None Include="Assets\Resources\data\entity_defs\DefensePvPMgr.xml" />
+     <None Include="Assets\Resources\Shader\MogoFakeLight.shader" />
+     <None Include="Assets\Resources\data\xml\StoryCG49.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_SanctuaryDefense.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10201_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s20002.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10502_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\GuildMessage.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Body.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10206_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\MogoSkybox2.shader" />
+     <None Include="Assets\Resources\data\spaces\s10306.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG104.xml" />
+     <None Include="Assets\Resources\Shader\MogoFlashLight.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10105_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\RunePosiUnLock.xml" />
+     <None Include="Assets\Resources\data\xml\LoginMarketData.xml" />
+     <None Include="Assets\Resources\Shader\MogoLightmap.shader" />
+     <None Include="Assets\Resources\data\xml\StoryCG18.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Guild.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG55.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG10.xml" />
+     <None Include="Assets\Resources\data\xml\ServerChineseData.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG99.xml" />
+     <None Include="Assets\Resources\Shader\MogoFont.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10308_PathPoint.xml" />
+     <None Include="Assets\Resources\Shader\MogoSkybox.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40005_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Collector.xml" />
+     <None Include="Assets\Resources\data\xml\storycg101.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG36.xml" />
+     <None Include="Assets\Resources\data\xml\guide.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Mail.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Resources\data\xml\MissionRandomRewardTimes.xml" />
+     <None Include="Assets\Resources\data\xml\map_setting.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG57.xml" />
+     <None Include="Assets\Resources\data\xml\role_data.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10501_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\BossChest.xml" />
+     <None Include="Assets\Resources\Shader\MogoChangeColor.shader" />
+     <None Include="Assets\Resources\data\xml\Roulette.xml" />
+     <None Include="Assets\Resources\data\xml\WingLevel.xml" />
+     <None Include="Assets\Resources\data\spaces\s10602.xml" />
+     <None Include="Assets\Resources\data\xml\GameProcData.xml" />
+     <None Include="Assets\Resources\data\xml\PassiveSkillEffect.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40006_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG47.xml" />
+     <None Include="Assets\Resources\data\xml\SpawnPointLevel.xml" />
+     <None Include="Assets\Resources\data\entity_defs\GameMgr.xml" />
+     <None Include="Assets\Resources\data\xml\LevelGuide.xml" />
+     <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit-TransparentColored.shader" />
+     <None Include="Assets\Resources\data\xml\MonsterValue.xml" />
+     <None Include="Assets\Resources\Shader\AngryInclude.cginc" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10205_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\UIFaceIcon.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG103.xml" />
+     <None Include="Assets\Resources\Shader\MogoParticleAdd.shader" />
+     <None Include="Assets\Resources\data\xml\DragonBase.xml" />
+     <None Include="Assets\Resources\data\xml\SkillData.xml" />
+     <None Include="Assets\Resources\data\xml\loadingTextures.xml" />
+     <None Include="Assets\Resources\data\spaces\s50003.xml" />
+     <None Include="Assets\Resources\data\spaces\s10105.xml" />
+     <None Include="Assets\Resources\data\xml\ItemDeEquipValues.xml" />
+     <None Include="Assets\Resources\data\entity_defs\Account.xml" />
+     <None Include="Assets\Resources\data\xml\SkillUpgrade.xml" />
+     <None Include="Assets\Resources\data\xml\SanctuaryDefenseConfig.xml" />
+     <None Include="Assets\Resources\Shader\MogoTransparentDiffuse.shader" />
+     <None Include="Assets\Resources\data\xml\MissionRandomReward.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG54.xml" />
+     <None Include="Assets\Resources\data\xml\SkillState.xml" />
+     <None Include="Assets\Resources\data\xml\AvatarModel.xml" />
+     <None Include="Assets\Resources\data\spaces\s10204.xml" />
+     <None Include="Assets\Plugins\Android\res\values\dimens.xml" />
+     <None Include="Assets\Resources\Shader\FlowLightShaderWithTwirl.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40003_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\FormulaParameters.xml" />
+     <None Include="Assets\Resources\data\xml\GuildDragon.xml" />
+     <None Include="Assets\Resources\data\xml\SpiritLevelData_Skill.xml" />
+     <None Include="Assets\Resources\data\xml\ArenaScoreReward.xml" />
+     <None Include="Assets\Resources\data\xml\TowerReward.xml" />
+     <None Include="Assets\Resources\data\xml\LevelGiftData.xml" />
+     <None Include="Assets\Resources\data\xml\Equip.xml" />
+     <None Include="Assets\Resources\data\xml\NameCuteFirst.xml" />
+     <None Include="Assets\Resources\data\spaces\s10703.xml" />
+     <None Include="Assets\Resources\data\spaces\s10109.xml" />
+     <None Include="Assets\Resources\data\spaces\s20005.xml" />
+     <None Include="Assets\Resources\data\xml\RouletteReward.xml" />
+     <None Include="Assets\Resources\Shader\MogoButtonUI.shader" />
+     <None Include="Assets\Resources\data\xml\PropertyEffect.xml" />
+     <None Include="Assets\Resources\data\xml\ActivityTime.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10504_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\MissionBossTreasure.xml" />
+     <None Include="Assets\Resources\data\spaces\s10102.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40004_PathPoint.xml" />
+     <None Include="Assets\Resources\cfg.xml" />
+     <None Include="Assets\Resources\Shader\DiamondShader.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10403_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\UserMgrData.xml" />
+     <None Include="Assets\Resources\data\xml\storyCG9.xml" />
+     <None Include="Assets\Resources\data\xml\HitState.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG109.xml" />
+     <None Include="Assets\Resources\data\xml\storycg22.xml" />
+     <None Include="Assets\Resources\data\spaces\s10100.xml" />
+     <None Include="Assets\Resources\data\spaces\s20003.xml" />
+     <None Include="Assets\Resources\Shader\MogoChangeColorETC.shader" />
+     <None Include="Assets\Resources\data\spaces\s20012.xml" />
+     <None Include="Assets\Resources\data\spaces\s10107.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10603_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG26.xml" />
+     <None Include="Assets\Resources\data\xml\action.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10304_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\ElfNode.xml" />
+     <None Include="Assets\Resources\data\spaces\s50002.xml" />
+     <None Include="Assets\Resources\data\spaces\s10508.xml" />
+     <None Include="Assets\Resources\data\xml\ElfSkill.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10409_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\PowerScoreJewel.xml" />
+     <None Include="Assets\Resources\data\xml\NameOccidentalLast.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG51.xml" />
+     <None Include="Assets\Resources\data\xml\RuneVocation.xml" />
+     <None Include="Assets\Resources\data\xml\Mwsy.xml" />
+     <None Include="Assets\Resources\data\xml\SoundData.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\30001_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_Achievement.xml" />
+     <None Include="Assets\Resources\data\xml\ArenaItemReward4Challenge.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG34.xml" />
+     <None Include="Assets\Resources\data\spaces\s30002.xml" />
+     <None Include="Assets\Resources\Shader\MogoStoneShader.shader" />
+     <None Include="Assets\Resources\Shader\MogoUIBackGround.shader" />
+     <None Include="Assets\Resources\data\xml\StoryCG43.xml" />
+     <None Include="Assets\Resources\data\xml\ChineseData.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG106.xml" />
+     <None Include="Assets\Resources\data\spaces\s10106.xml" />
+     <None Include="Assets\Resources\data\xml\CharacterInfoData.xml" />
+     <None Include="Assets\Resources\data\spaces\s10502.xml" />
+     <None Include="Assets\Resources\Shader\MogoUIAdd.shader" />
+     <None Include="Assets\Resources\data\xml\BodyEnhanceData.xml" />
+     <None Include="Assets\Resources\Shader\MogoUVAnimation.shader" />
+     <None Include="Assets\Resources\data\entity_defs\MissionRecord.xml" />
+     <None Include="Assets\Resources\data\entity_defs\ArenaData.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG12.xml" />
+     <None Include="Assets\Resources\data\xml\storycg20.xml" />
+     <None Include="Assets\Resources\data\xml\fumo_datamaker.xml" />
+     <None Include="Assets\Resources\Shader\Mul-skybox.shader" />
+     <None Include="Assets\Resources\data\spaces\s10705.xml" />
+     <None Include="Assets\Resources\data\xml\storyCG4.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10306_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\ChargeMgr_recs.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG30.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG50.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_DefecsePvP_Team.xml" />
+     <None Include="Assets\Resources\data\spaces\s10507.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10506_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Drop.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10204_PathPoint.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10406_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG52.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40008_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_Login.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG53.xml" />
+     <None Include="Assets\Resources\Shader\TestFX2.shader" />
+     <None Include="Assets\Resources\data\entity_defs\ActivityMgr.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10508_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Reward_DefecsePvP_Personal.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG33.xml" />
+     <None Include="Assets\Resources\data\xml\MissionEvaluate.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10302_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG35.xml" />
+     <None Include="Assets\Resources\data\xml\SanctuaryDefenseLevelToFactor.xml" />
+     <None Include="Assets\Resources\data\xml\DropModelData.xml" />
+     <None Include="Assets\Resources\data\spaces\s10305.xml" />
+     <None Include="Assets\Resources\data\xml\ItemSpecial.xml" />
+     <None Include="Assets\Resources\data\xml\ArenaLevel.xml" />
+     <None Include="Assets\Resources\data\xml\TowerSweepCdClearCost.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40009_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s40007.xml" />
+     <None Include="Assets\Resources\data\xml\ControllerOfWeapon.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG48.xml" />
+     <None Include="Assets\Resources\data\spaces\s40002.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40007_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\PowerScore.xml" />
+     <None Include="Assets\Resources\data\xml\NameCuteLast.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10109_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\OfflineData.xml" />
+     <None Include="Assets\Resources\Shader\MogoFakeLightETC.shader" />
+     <None Include="Assets\Resources\data\xml\Energy.xml" />
+     <None Include="Assets\Resources\data\xml\ChatList.xml" />
+     <None Include="Assets\Resources\data\spaces\s20006.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\40001_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\BT_AI.xml" />
+     <None Include="Assets\Resources\data\spaces\s10509.xml" />
+     <None Include="Assets\Resources\data\spaces\s10603.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG42.xml" />
+     <None Include="Assets\Resources\data\spaces\s10606.xml" />
+     <None Include="Assets\Resources\data\xml\DragonQuality.xml" />
+     <None Include="Assets\Resources\data\xml\storyCG15.xml" />
+     <None Include="Assets\Resources\data\xml\RuneRandom.xml" />
+     <None Include="Assets\Resources\data\spaces\s10501.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10307_PathPoint.xml" />
+     <None Include="Assets\Resources\data\entity_defs\last_server_account.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10505_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\SkillAction.xml" />
+     <None Include="Assets\Resources\Shader\MogoCardFG.shader" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10303_PathPoint.xml" />
+     <None Include="Assets\Resources\data\spaces\s10104.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10704_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG40.xml" />
+     <None Include="Assets\Resources\data\xml\ItemEquipment.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG23.xml" />
+     <None Include="Assets\Resources\data\spaces\s10206.xml" />
+     <None Include="Assets\Resources\data\xml\Activity.xml" />
+     <None Include="Assets\Resources\data\xml\ItemExchange.xml" />
+     <None Include="Assets\Resources\data\spaces\s10601.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG8.xml" />
+     <None Include="Assets\Resources\data\xml\DiamondMine.xml" />
+     <None Include="Assets\Resources\data\xml\day_task.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10207_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG44.xml" />
+     <None Include="Assets\Resources\data\xml\SkillIdReflect.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG2.xml" />
+     <None Include="Assets\Resources\data\xml\Mission.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10405_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\NPCData.xml" />
+     <None Include="Assets\Resources\data\entity_defs\OblivionGateMgr.xml" />
+     <None Include="Assets\Resources\data\xml\PowerScoreStar.xml" />
+     <None Include="Assets\Resources\data\spaces\s10303.xml" />
+     <None Include="Assets\Resources\data\spaces\s20001.xml" />
+     <None Include="Assets\Resources\data\spaces\s40005.xml" />
+     <None Include="Assets\Resources\data\spaces\s10504.xml" />
+     <None Include="Assets\Resources\data\xml\Icon.xml" />
+     <None Include="Assets\Resources\data\xml\OblivionTrigger.xml" />
+     <None Include="Assets\Resources\data\entity_defs\RankListData.xml" />
+     <None Include="Assets\Resources\data\xml\ItemSuitEquipments.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG102.xml" />
+     <None Include="Assets\Resources\data\xml\StoryCG28.xml" />
+     <None Include="Assets\Resources\data\MissionPathPoint\10402_PathPoint.xml" />
+     <None Include="Assets\Resources\data\xml\Event.xml" />
+     <None Include="Assets\Resources\data\xml\EquipValuesSortInfo.xml" />
+     <None Include="Assets\Resources\data\xml\VictorCameraCfg.xml" />
+     <None Include="Assets\Resources\data\xml\GlobalData.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIAutomation">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="MsgPack">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Plugins/Libs/MsgPack.dll</HintPath>
+ </Reference>
+ <Reference Include="LoaderLib">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Plugins/Libs/LoaderLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Scripts/libs/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="GameData">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Scripts/libs/GameData.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Utils.Zip">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Editor/Libs/Ionic.Utils.Zip.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>/Users/john/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="MsgPack">
+ <HintPath>/Users/john/Documents/u3d_workspace/ahzsClient/Assets/Plugins/MogoSolution/LoaderLib/Libs/MsgPack.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{453B0195-5068-8958-D96B-ADC62599EAD6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{B5267EF7-6819-45F6-0DA2-F62D062901BC}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

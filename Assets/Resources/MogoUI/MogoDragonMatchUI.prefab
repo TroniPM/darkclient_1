@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MogoDragonMatchUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  material: {fileID: 2100000, guid: df14ed7840d57594c90d3dfbec08efdb, type: 2}
+  sprites:
+  - name: flds_ksbs_down
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 326
+      width: 183
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 326
+      width: 183
+      height: 186
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .00546448072
+    paddingTop: .00537634408
+    paddingBottom: .00537634408
+  - name: flds_xing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 23
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 23
+      height: 23
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flds_ksbs_up
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 139
+      width: 183
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 139
+      width: 183
+      height: 186
+    rotated: 0
+    paddingLeft: .00546448072
+    paddingRight: 0
+    paddingTop: .0107526882
+    paddingBottom: 0
+  - name: flds_xingdi
+    outer:
+      serializedVersion: 2
+      x: 24
+      y: 16
+      width: 22
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 24
+      y: 16
+      width: 22
+      height: 23
+    rotated: 0
+    paddingLeft: .0454545468
+    paddingRight: .0454545468
+    paddingTop: 0
+    paddingBottom: .0434782617
+  - name: sc_diejieshensebeijing
+    outer:
+      serializedVersion: 2
+      x: 47
+      y: 20
+      width: 18
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 47
+      y: 20
+      width: 18
+      height: 19
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: lt_butten2_up
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 76
+      width: 36
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 86
+      width: 16
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: lt_butten2_down
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 13
+      width: 36
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 23
+      width: 16
+      height: 42
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0161290318
+    paddingBottom: .0161290318
+  - name: baoxiang01_close
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 40
+      width: 207
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 40
+      width: 207
+      height: 207
+    rotated: 0
+    paddingLeft: .0241545886
+    paddingRight: .0193236712
+    paddingTop: 0
+    paddingBottom: 0
+  - name: baoxiang01_open
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 248
+      width: 262
+      height: 264
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 248
+      width: 262
+      height: 264
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0037878789
+    paddingBottom: 0
+  - name: zb_zhuangbeibtn_up
+    outer:
+      serializedVersion: 2
+      x: 208
+      y: 139
+      width: 46
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 226
+      y: 157
+      width: 8
+      height: 72
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .391304344
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fb_nandubeijing_down
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 9
+      width: 77
+      height: 334
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 39
+      width: 37
+      height: 274
+    rotated: 0
+    paddingLeft: .012987013
+    paddingRight: .0259740259
+    paddingTop: 0
+    paddingBottom: .00598802418
+  - name: longtou
+    outer:
+      serializedVersion: 2
+      x: 447
+      y: 344
+      width: 176
+      height: 168
+    inner:
+      serializedVersion: 2
+      x: 447
+      y: 344
+      width: 176
+      height: 168
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: yy_cjbj
+    outer:
+      serializedVersion: 2
+      x: 263
+      y: 18
+      width: 100
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 263
+      y: 18
+      width: 100
+      height: 120
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: vip08
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 352
+      width: 160
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 624
+      y: 352
+      width: 160
+      height: 160
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: flds_js
+    outer:
+      serializedVersion: 2
+      x: 785
+      y: 412
+      width: 100
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 785
+      y: 412
+      width: 100
+      height: 100
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
